@@ -1,0 +1,11 @@
+---
+- name: create docker-opensourceai in /etc
+  file:
+    path: /etc/docker-opensourceai
+    state: directory
+    recurse: yes
+
+- name: copy nvidia runtime configuration file into /etc/docker-opensourceai
+  copy:
+    src: daemon-opensourceai-default-runtime.json
+    dest: /etc/docker-opensourceai/daemon-opensourceai.json

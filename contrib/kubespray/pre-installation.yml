@@ -1,0 +1,11 @@
+---
+- hosts: all,localhost
+  gather_facts: false
+  roles:
+    - { role: set-python3 }
+
+- hosts: all
+  become: true
+  become_user: root
+  roles:
+    - { role: pre-installation }

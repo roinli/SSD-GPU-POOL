@@ -1,0 +1,21 @@
+# Copyright (c) opensource-china Corporation.
+# Licensed under the MIT License.
+
+cluster-type:
+  - k8s
+
+prerequisite:
+  - frameworkcontroller
+  - postgresql
+
+template-list:
+  - database-controller.yaml
+  - start.sh
+
+start-script: start.sh
+stop-script: stop.sh
+delete-script: delete.sh
+refresh-script: refresh.sh
+
+deploy-rules:
+  - in: pai-master

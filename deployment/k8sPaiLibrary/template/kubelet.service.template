@@ -1,0 +1,16 @@
+[Unit]
+Description=kubelet daemon
+After=docker.service
+Requires=docker.service
+
+[Service]
+ExecStartPre=-/usr/bin/docker kill kubelet
+ExecStartPre=-/usr/bin/docker rm kubelet
+ExecStart=/bin/bash /usr/bin/opensourceai-kubelet.sh
+ExecStop=-/usr/bin/docker stop kubelet
+ExecStop=-/usr/bin/docker rm kubelet
+RestartSec=5s
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,2 @@
+!!com.opensource-china.frameworklauncher.common.model.TaskRoleApplicationCompletionPolicyDescriptor {
+  minFailedTaskCount: 0, minSucceededTaskCount: 0}

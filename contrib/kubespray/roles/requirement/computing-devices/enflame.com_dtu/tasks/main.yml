@@ -1,0 +1,62 @@
+---
+- name: "Check Enflame DTU card info with lspci"
+  raw: "lspci -d 1e36: | grep ."
+  register: lspci_grep
+  failed_when: false
+  changed_when: false
+  check_mode: false
+  environment: {}
+
+- name: "Check Enflame DTU exits or not"
+  set_fact:
+    unmet_requirements: "{{ unmet_requirements + ['Enflame DTU card is not detected'] }}"
+  changed_when: false
+  check_mode: false
+  environment: {}
+  when:
+    - lspci_grep.rc != 0
+
+- name: "Check Enflame DTU drivers with efsmi"
+  raw: "efsmi"
+  register: efsmi
+  failed_when: false
+  changed_when: false
+  check_mode: false
+  environment: {}
+
+- name: "Check Enflame DTU drivers is installed or not "
+  set_fact:
+    unmet_requirements: "{{ unmet_requirements + ['Enflame DTU drivers is not detected'] }}"
+  changed_when: false
+  check_mode: false
+  environment: {}
+  when:
+    - efsmi.rc != 0
+
+- name: "Check Enflame DTU card number with efsmi"
+  raw: "efsmi -L | grep -E '^DTU ' | wc -l"
+  register: enflame_dtu_count
+  failed_when: false
+  changed_when: false
+  check_mode: false
+  environment: {}
+  when:
+    # if efsmi doesn't work, we can skip this step
+    - efsmi.rc == 0 
+
+- name: "Check Enflame DTU card number is matched or not"
+  set_fact:
+    unmet_requirements: "{{ unmet_requirements + [\"Enflame DTU card number is not matched: {{ computing_device_count }} specified but only {{ enflame_dtu_count.stdout_lines[0] }} found\"] }}"
+  changed_when: false
+  check_mode: false
+  environment: {}
+  when:
+    # if efsmi doesn't work, we can skip this step
+    - efsmi.rc == 0
+    - "enflame_dtu_count.stdout_lines|join('')|trim|int != computing_device_count"
+    - enflame_dtu_count.rc == 0
+
+# Enflame device plugin depends on enflame docker runtime.
+# So we should always check it.
+- name: "Check default docker runtime."
+  include_tasks: docker-runtime.yml

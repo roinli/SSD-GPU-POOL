@@ -1,0 +1,6 @@
+Type: IPython Notebook Extension
+Name: opensourceai_submitter
+Description: A jupyter notebook plugin for quick submission to opensourceai cluster.
+Link: README.md
+Main: main.js
+Compatibility: 3.x, 4.x, 5.x, 6.x

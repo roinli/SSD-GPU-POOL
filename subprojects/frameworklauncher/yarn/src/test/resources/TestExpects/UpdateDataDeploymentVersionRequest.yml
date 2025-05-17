@@ -1,0 +1,2 @@
+!!com.opensource-china.frameworklauncher.common.model.UpdateDataDeploymentVersionRequest {
+  dataDeploymentVersion: testString, dataDeploymentVersionType: null}

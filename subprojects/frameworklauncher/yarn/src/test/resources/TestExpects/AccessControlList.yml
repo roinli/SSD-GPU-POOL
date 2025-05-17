@@ -1,0 +1,4 @@
+!!com.opensource-china.frameworklauncher.common.model.AccessControlList
+users: !!set
+  ? {name: testString}
+  : null

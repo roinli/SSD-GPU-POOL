@@ -1,0 +1,28 @@
+---
+- hosts: all
+  tasks:
+    - name: copy clean script to the remote host
+      copy:
+        src: clean-nvidia-driver-by-opensourceai.sh
+        dest: /clean-nvidia-driver-by-opensourceai.sh
+
+    - name: Change file permissions
+      file:
+        path: /clean-nvidia-driver-by-opensourceai.sh
+        mode: '1777'
+
+
+    - name: remove the nvidia-drivers
+      shell: /clean-nvidia-driver-by-opensourceai.sh
+      args:
+        executable: /bin/bash
+
+    - name: reboot vm
+      reboot:
+
+    - name: remove the script
+      file:
+        state: absent
+        path: /clean-nvidia-driver-by-opensourceai.sh
+
+

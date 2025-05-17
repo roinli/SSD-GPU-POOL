@@ -1,0 +1,15 @@
+---
+- name: set fact
+  set_fact:
+    base_dir_cfg: "{{ playbook_dir }}/.generated/"
+
+- name: Generate opensourceai.sh template
+  template:
+    src: opensourceai.sh
+    dest: "{{ playbook_dir }}/opensourceai.sh"
+    mode: '0777'
+
+- name: Start opensourceai service
+  command: "/bin/bash {{ playbook_dir }}/opensourceai.sh"
+  become: true
+  become_user: root

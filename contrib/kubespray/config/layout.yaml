@@ -1,0 +1,38 @@
+# GPU cluster example
+# This is a cluster with one master node and two worker nodes
+
+machine-sku:
+  master-machine: # define a machine sku
+    # the resource requirements for all the machines of this sku
+    # We use the same memory format as Kubernetes, e.g. Gi, Mi
+    # Reference: https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#meaning-of-memory
+    mem: 60Gi
+    cpu:
+      # the number of CPU vcores
+      vcore: 24
+  gpu-machine:
+    computing-device:
+      # For `type`, please follow the same format specified in device plugin.
+      # For example, `nvidia.com/gpu` is for NVIDIA GPU, `amd.com/gpu` is for AMD GPU,
+      # and `enflame.com/dtu` is for Enflame DTU.
+      # Reference: https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/device-plugins/
+      type: nvidia.com/gpu
+      model: K80
+      count: 4
+    mem: 220Gi
+    cpu:
+      vcore: 24
+
+machine-list:
+  - hostname: pai-master # name of the machine, **do not** use upper case alphabet letters for hostname
+    hostip: 10.0.0.1
+    machine-type: master-machine # only one master-machine supported
+    pai-master: "true"
+  - hostname: pai-worker1
+    hostip: 10.0.0.2
+    machine-type: gpu-machine
+    pai-worker: "true"
+  - hostname: pai-worker2
+    hostip: 10.0.0.3
+    machine-type: gpu-machine
+    pai-worker: "true"

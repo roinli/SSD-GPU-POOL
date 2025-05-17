@@ -1,0 +1,12 @@
+---
+- hosts: all,localhost
+  gather_facts: false
+  roles:
+    - { role: set-python3 }
+
+- hosts: gpu
+  become: true
+  become_user: root
+  gather_facts: true
+  roles:
+    - { role: port }

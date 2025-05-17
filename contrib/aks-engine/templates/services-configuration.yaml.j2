@@ -1,0 +1,123 @@
+# Copyright (c) opensource-china Corporation.
+# Licensed under the MIT License.
+
+cluster:
+  common:
+    cluster-id: pai
+    cluster-type: k8s
+    k8s-rbac: "true"
+    job-history: "true"
+    data-path: "/datastorage"
+    qos-switch: "false"
+    docker-data-root: "/mnt/docker"
+
+  # the docker registry to store docker images that contain system services like frameworklauncher, hadoop, etc.
+  docker-registry:
+
+    # The namespace in your registry. If the registry is docker.io, the namespace will be your user account.
+    namespace: {{ cfg["opensourceai_config"]["docker_registry_namespace"] | default("opensourceai") }}
+
+    # E.g., gcr.io.
+    # if the registry is hub.docker, please fill this value with docker.io
+    domain: {{ cfg["opensourceai_config"]["docker_registry_domain"] | default("docker.io") }}
+    # If the docker registry doesn't require authentication, please comment username and password
+    {% if "docker_registry_username" in cfg["opensourceai_config"] %}
+    username: {{ cfg["opensourceai_config"]["docker_registry_username"] }}
+    {% else %}
+    #username: <username>
+    {% endif %}
+    {% if "docker_registry_password" in cfg["opensourceai_config"] %}
+    password: {{ cfg["opensourceai_config"]["docker_registry_password"] }}
+    {% else %}
+    #password: <password>
+    {% endif %}
+
+    tag: {{ cfg["opensourceai_config"]["docker_image_tag"] }}
+
+    # The name of the secret in kubernetes will be created in your cluster
+    # Must be lower case, e.g., regsecret.
+    secret-name: pai-secret
+
+rest-server:
+  default-pai-admin-username: {{ cfg["opensourceai_config"]["admin_account"] | default("opensourceai") }}
+  default-pai-admin-password: {{ cfg["opensourceai_config"]["admin_password"] | default("opensourceai1234") }}
+
+webportal:
+  server-port: 9286
+
+internal-storage:
+  enable: true
+
+postgresql:
+  enable: true
+
+# If you want to customize the scheduling config, such add more virtual clusters or more gpu types, check:
+# https://github.com/opensource-china/pai/blob/master/docs/hivedscheduler/devops.md
+hivedscheduler:
+  config: |
+    physicalCluster:
+      skuTypes:
+        GPU:
+        {% if k8s["gpu"] %}
+          gpu: 1
+          cpu: {{ k8s["sku"]["cpu-unit"] }}
+        {% else %}
+          cpu: 1
+        {% endif %}
+          memory: {{ k8s["sku"]["mem-unit"] }}Mi
+      cellTypes:
+        GPU-NODE:
+          childCellType: GPU
+        {% if k8s["gpu"] %}
+          childCellNumber: {{ k8s["sku"]["gpu_resource"] }}
+        {% else %}
+          childCellNumber: {{ k8s["sku"]["cpu_resource"] }}
+        {% endif %}
+          isNodeLevel: true
+        GPU-NODE-POOL:
+          childCellType: GPU-NODE
+          childCellNumber: {{ cfg["opensourceai_worker_vmss"]["max_vm_count"] }}
+      physicalCells:
+      - cellType: GPU-NODE-POOL
+        cellChildren:
+        {%- for i in range(cfg["opensourceai_worker_vmss"]["max_vm_count"]) %}
+        - cellAddress: {{ "placeholder{:06d}".format(i) }}
+        {%- endfor %}
+    virtualClusters:
+      default:
+        virtualCells:
+        - cellType: GPU-NODE-POOL.GPU-NODE
+          cellNumber: {{ cfg["opensourceai_worker_vmss"]["max_vm_count"] }}
+
+authentication:
+  OIDC: false
+
+  group-manager:
+    group-data-source: basic
+    admin-group:
+      groupname: admingroup
+      description: "admin's group"
+      externalName: ""
+      extension:
+        acls:
+          virtualClusters: []
+          admin: true
+    default-group:
+      groupname: default
+      description: "group for default vc"
+      externalName: ""
+      extension:
+        acls:
+          virtualClusters: ["default"]
+          admin: false
+
+pylon:
+  port: 80
+  ssl:
+    crt_name: {{ k8s["master_ip"] }}.crt
+    crt_path: /cluster-configuration/{{ k8s["master_ip"] }}.crt
+    key_name: {{ k8s["master_ip"] }}.key
+    key_path: /cluster-configuration/{{ k8s["master_ip"] }}.key
+  uri: https://{{ k8s["master_ip"] }}
+  uri-https: https://{{ k8s["master_ip"] }}
+  domain: "{{ k8s["master_ip"] }}"
