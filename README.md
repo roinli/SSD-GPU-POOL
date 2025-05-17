@@ -1,6 +1,6 @@
-[🔥 Github 主仓库（优先更新）](https://github.com/jingli1234/gpuchihua) | [Gitee 镜像仓库](https://gitee.com/jingli1234/gpuchihua)
+[🔥 Github 主仓库（优先更新）](https://github.com/roinli/SSD-GPU-POOL) | [Gitee 镜像仓库](https://github.com/roinli/SSD-GPU-POOL)
 
-> 原仓库因故暂停使用，本仓库为镜像项目。开源版本将持续迭代优化，欢迎提交 Issue 或加入社群交流。
+# > 原仓库因故暂停使用，本仓库为镜像项目。开源版本将持续迭代优化，欢迎提交 Issue 或加入社群交流。
 
 ![产品架构图](https://gitee.com/jingli1234/gpuchihua/raw/master/img/3.kaiyuan2tuili.jpg)
 
