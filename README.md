@@ -9,7 +9,7 @@
 
 ---
 
-![功能架构图](https://gitee.com/jingli1234/gpuchihua/blob/master/img/%E4%BA%A7%E5%93%81%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
+![功能架构图](https://gitee.com/jingli1234/gpuchihua/raw/master/img/%E4%BA%A7%E5%93%81%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
 
 ### 一、AI 开发面临的挑战
