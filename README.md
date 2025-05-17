@@ -12,6 +12,8 @@
 ![功能架构图](https://gitee.com/jingli1234/gpuchihua/raw/master/img/%E4%BA%A7%E5%93%81%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
 
+
+
 ### 一、AI 开发面临的挑战
 
 #### 1. GPU 资源管理困境
@@ -46,6 +48,8 @@
 ---
 
 ### 三、功能架构
+![技术架构图](https://gitee.com/jingli1234/gpuchihua/raw/master/img/GPU%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
+
 
 ![功能架构图](https://gitee.com/jingli1234/gpuchihua/raw/master/img/1.%E4%BA%A7%E5%93%81%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg)
 
