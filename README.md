@@ -4,7 +4,7 @@
 
 ![产品架构图](https://gitee.com/jingli1234/gpuchihua/raw/master/img/3.kaiyuan2tuili.jpg)
 
-## GPU 池化平台 | AI 全生命周期管理解决方案  
+## SSD-GPU-Pool GPU池化训练推理平台 | AI全生命周期管理解决方案  
 ### （支持训练加速/推理优化/资源调度）
 
 ---
