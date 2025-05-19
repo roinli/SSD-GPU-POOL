@@ -90,7 +90,7 @@
 
 ### 五、典型应用场景
 
-![应用场景图](https://gitee.com/jingli1234/gpuchihua/raw/master/img/2.%E5%85%B8%E5%9E%8B%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF.png)
+![应用场景图](https://gitee.com/jingli1234/gpuchihua/raw/master/img/aa8d86657652373b61cde0e72359355.png)
 
 #### 场景 1：计算机视觉研发
 - 支持 ImageNet 级数据集分布式预处理
