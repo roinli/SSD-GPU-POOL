@@ -1,0 +1,63 @@
+/*
+* Copyright 2019-2020 Zheng Jie
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
+$red: #fa5555;
+$primaryColor: #5f7df9;
+$primaryHoverColor: #7f97fa;
+$primaryPlainBgColor: #e7e7ff;
+$primaryBorderColor: #5f7df9;
+$primaryBg: #ecf8ff;
+$titleColor: #444;
+$commonTextColor: #666;
+$labelColor: #606266;
+$infoColor: #909399;
+$disableColor: #909399;
+$linkColor: #5f7df9;
+$borderColor: #d8d8d8;
+$successColor: #67c23a;
+$imageBg: #f8f8f8;
+$areaTitleColor: #303133;
+$areaBorderColor: #d8dce6;
+
+$borderColorBase: #ebeef5;
+$borderColorDark: #c0c4cc;
+$black: #001529;
+$dark: #323232;
+$bglight: #F5F6FA;
+$graylight: #D7DBEC;
+
+// sidebar
+$menuBg: #ffffff;
+$menuText: $commonTextColor;
+$menuActiveText: $primaryColor;
+
+$menuPrimaryColor: #696cff;
+$menuHoverBg: #e7e7ff;
+$subMenuBg: #ffffff;
+$menuActiveBg: #d8dfff;
+$sideBarWidth: 210px;
+$iconBarWidth: 64px;
+$navBarHeight: 50px;
+$footerHeight: 33px;
+
+$tipBgColor: #ffe9cc;
+$tipColor: #f38900;
+
+:export {
+  menuBg: $menuBg;
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+}

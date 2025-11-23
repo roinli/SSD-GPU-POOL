@@ -1,0 +1,145 @@
+/*
+* Copyright 2019-2020 Zheng Jie
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
+@import 'variables';
+@import 'element-variables';
+@import 'mixin';
+@import 'atomic';
+@import 'element-ui';
+@import 'sidebar';
+@import 'common';
+@import url('//at.alicdn.com/t/font_1756495_ruu4wftj3kf.css');
+
+@media screen and (max-width: 768px) {
+  .mb-dn {
+    display: none !important;
+  }
+
+  .mb-w100 {
+    width: 100% !important;
+  }
+}
+
+body {
+  height: 100%;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  line-height: 1.5715;
+  color: rgba(0, 0, 0, 0.85);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+image {
+  user-select: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  border-style: solid;
+  border-width: 0;
+}
+
+*,
+*:focus,
+*:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul li,
+ol li {
+  list-style-type: none;
+}
+
+.primary {
+  color: $primaryColor;
+}
+
+.disabled {
+  color: $disableColor;
+  cursor: not-allowed;
+}
+
+.c-info {
+  color: $infoColor;
+}
+
+.fontBold {
+  font-weight: bold;
+}
+
+.primary-bg {
+  background-color: $primaryColor;
+
+  &:hover {
+    background-color: $primaryHoverColor;
+  }
+}
+
+p.error-message {
+  margin: 0;
+  font-size: 12px;
+  color: $red;
+}
+
+// 新手导引
+.v-tour {
+  div.v-step {
+    color: #2e4fde;
+    background: #d8dfff;
+  }
+
+  button.v-step__button {
+    color: #2e4fde;
+    border-color: #2e4fde;
+
+    &:hover {
+      background: #f3f7ff;
+    }
+  }
+}

@@ -1,0 +1,284 @@
+/** Copyright 2020 Tianshu AI Platform. All Rights Reserved.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+* =============================================================
+*/
+
+@import "~@/assets/styles/variables.scss";
+
+.group-cascader {
+  .el-cascader-menu__wrap {
+    max-width: 280px;
+    min-height: 100px;
+    max-height: 300px;
+  }
+}
+
+.table-top-row {
+  background-color: $menuBg !important;
+}
+
+.link-primary {
+  color: $primaryColor;
+  cursor: pointer;
+}
+
+.label-input {
+  max-height: 200px;
+  overflow-y: auto;
+  border-color: #b4bccc;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+
+  .el-button {
+    padding: 0;
+  }
+}
+
+.label-group-select {
+  width: 240px;
+}
+
+.label-group-popover {
+  padding: 0;
+}
+
+.label-input .el-tag {
+  margin-left: 4px;
+}
+
+.tt-wrapper.progress-tip {
+  .tooltip-item-label {
+    min-width: 100px;
+  }
+}
+
+.dataset-name-col {
+  .cell {
+    text-overflow: unset;
+  }
+
+  .name-col {
+    max-width: 90%;
+
+    span {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+.placeholder {
+  p {
+    margin: 0;
+  }
+
+  .has-tip {
+    line-height: 1.5;
+
+    .tip {
+      padding: 10px;
+      margin-bottom: 20px;
+      color: #f38900;
+      background: #ffe9cc;
+    }
+
+    .requirement {
+      margin-left: 20px;
+      font-size: 14px;
+      color: $infoColor;
+    }
+  }
+
+  a {
+    color: $primaryColor;
+  }
+}
+
+.el-progress {
+  display: block;
+}
+
+.el-progress-bar {
+  padding-right: 70px;
+  margin-right: -70px;
+}
+
+.el-progress--circle {
+  .el-progress__text {
+    i {
+      font-size: 30px !important;
+    }
+  }
+}
+
+.el-progress-circle {
+  margin: 0 auto;
+}
+
+.progress-wrap {
+  .el-icon-loading + span {
+    display: block;
+    flex: 1;
+    margin-left: 4px;
+  }
+}
+
+.decompress-progress {
+  flex: 1;
+  margin: 0 auto;
+
+  .el-progress-bar__inner {
+    background:
+      -webkit-repeating-linear-gradient(
+        -30deg,
+        #83a7cf 0,
+        #83a7cf 10px,
+        #93b3d6 10px,
+        #93b3d6 20px
+      );
+    animation: process 5s linear infinite;
+  }
+
+  .el-progress__text {
+    display: inline;
+  }
+
+  @keyframes process {
+    0% {
+      background-position: 0 0;
+    }
+
+    100% {
+      background-position: 180px 0;
+    }
+  }
+}
+
+.reannotate-popconfirm {
+  .el-popconfirm__main {
+    align-items: baseline;
+  }
+}
+// 模拟的圆形进度条
+.circleProgressWrapper {
+  position: relative;
+  width: 126px;
+  height: 126px;
+  margin: 0 auto;
+
+  .circleText {
+    line-height: 126px;
+    text-align: center;
+  }
+
+  .wrapper {
+    position: absolute;
+    top: 0;
+    width: 63px;
+    height: 126px;
+    overflow: hidden;
+  }
+
+  .right {
+    right: 0;
+  }
+
+  .left {
+    left: 0;
+  }
+
+  .circleProgress {
+    position: absolute;
+    top: 0;
+    width: 126px;
+    height: 126px;
+    border: 8px solid #87d068;
+    border-radius: 50%;
+    transform: rotate(45deg);
+  }
+
+  .rightCircle {
+    right: 0;
+    border-top: 8px solid #87d068;
+    border-right: 8px solid #87d068;
+    animation: rightCircleProgressLoad 5s linear infinite;
+  }
+
+  .leftCircle {
+    left: 0;
+    border-bottom: 8px solid #87d068;
+    border-left: 8px solid #87d068;
+    animation: leftCircleProgressLoad 5s linear infinite;
+  }
+
+  @keyframes rightCircleProgressLoad {
+    0% {
+      border-top: 8px solid #87d068;
+      border-right: 8px solid #87d068;
+      transform: rotate(45deg);
+    }
+
+    50% {
+      border-top: 8px solid #108ee9;
+      border-right: 8px solid #108ee9;
+      border-bottom: 8px solid rgb(81, 197, 81);
+      border-left: 8px solid rgb(81, 197, 81);
+      transform: rotate(225deg);
+    }
+
+    100% {
+      border-bottom: 8px solid #87d068;
+      border-left: 8px solid #87d068;
+      transform: rotate(225deg);
+    }
+  }
+
+  @keyframes leftCircleProgressLoad {
+    0% {
+      border-bottom: 8px solid #87d068;
+      border-left: 8px solid #87d068;
+      transform: rotate(45deg);
+    }
+
+    50% {
+      border-top: 8px solid rgb(81, 197, 81);
+      border-right: 8px solid rgb(81, 197, 81);
+      border-bottom: 8px solid #108ee9;
+      border-left: 8px solid #108ee9;
+      transform: rotate(45deg);
+    }
+
+    100% {
+      border-top: 8px solid #87d068;
+      border-right: 8px solid #87d068;
+      border-bottom: 8px solid #87d068;
+      border-left: 8px solid #87d068;
+      transform: rotate(225deg);
+    }
+  }
+}
+
+.action-button {
+  margin-left: 10px;
+}
+
+.el-dropdown-menu {
+  .action-button {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: left;
+  }
+}

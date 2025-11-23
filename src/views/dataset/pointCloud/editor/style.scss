@@ -1,0 +1,163 @@
+/** Copyright 2020 Tianshu AI Platform. All Rights Reserved.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+* =============================================================
+*/
+
+// 主窗口背景色
+$mainBgColor: #f5f6fa;
+// 左边宽度
+$leftSideBarWidth: 240px;
+// 头部高度
+$headerHeight: 64px;
+// 头部下方面包屑高度
+$headerBreadcrumbHeight: 34px;
+// 头部面包屑下tab导航高度
+$headerTabNavHeight: 36px;
+// 编辑器布局背景
+$editorLayoutBg: #303030;
+// 失效背景及标签列表背景
+$editorDisabledBg: #5a5a5a;
+// 编辑器组件边框颜色
+$editorBorderColor: #7d7d7d;
+// 编辑器文字颜色
+$editorTextColor: #dbdbdb;
+$primaryColor: #2e4fde;
+$primaryHoverColor: #5872e5;
+
+@mixin colors($color) {
+  padding: 2px 10px;
+  font-size: 12px;
+  color: $color;
+  background: fade($color, 10);
+  border: $color 1px solid;
+  border-radius: 3px;
+}
+
+.tag-status-purple {
+  @include colors(#722fD1);
+}
+
+.tag-status-orange {
+  @include colors(#f99600);
+}
+
+.tag-status-blue {
+  @include colors(#2c68ff);
+}
+
+.tag-status-red {
+  @include colors(#f52f3e);
+}
+
+.tag-status-green {
+  @include colors(#58d1c9);
+}
+
+.tag-status-default {
+  padding: 2px 10px;
+  font-size: 12px;
+  color: #2b2d36;
+  border: #c8c9cc 1px solid;
+  border-radius: 3px;
+}
+
+// item
+.annotation-item {
+  display: flex;
+  width: 100%;
+  height: 36px;
+  overflow: hidden;
+  background: $editorDisabledBg;
+  border-radius: 0.375rem;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  .list-number {
+    width: 36px;
+    height: 36px;
+    color: $editorTextColor;
+  }
+
+  .item-content__inner {
+    width: calc(100% - 36px);
+    padding: 0 10px;
+    color: $editorTextColor;
+  }
+}
+
+.tip-db {
+  background: #5a5a5a !important;
+}
+
+// 编辑器模式弹窗样式
+::v-deep.el-modal__dark {
+  .el-dialog {
+    background: $editorLayoutBg;
+
+    .el-dialog__header {
+      .el-dialog__title {
+        color: $editorTextColor;
+      }
+    }
+
+    .el-dialog__body {
+      color: $editorTextColor;
+
+      .el-table {
+        th,
+        td {
+          color: $editorTextColor;
+          background-color: $editorLayoutBg;
+        }
+      }
+
+      .el-form-item__label {
+        color: $editorTextColor;
+      }
+
+      .el-input__inner,
+      .el-textarea__inner {
+        color: $editorTextColor;
+        background-color: $editorLayoutBg;
+        border: 1px solid $editorBorderColor;
+      }
+
+      .el-input.is-disabled .el-input__inner {
+        color: #c0c4cc;
+        cursor: not-allowed;
+        background-color: $editorBorderColor;
+        border-color: $editorBorderColor;
+      }
+
+      .el-checkbox {
+        color: $editorTextColor;
+
+        .el-checkbox__inner {
+          background-color: $editorLayoutBg;
+          border: 1px solid $editorBorderColor;
+        }
+      }
+    }
+
+    .el-dialog__footer {
+      .el-button--default {
+        color: $editorTextColor;
+        background: $editorLayoutBg;
+        border: 1px solid $editorDisabledBg;
+      }
+    }
+  }
+}

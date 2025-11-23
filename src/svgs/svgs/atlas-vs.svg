@@ -1,0 +1,25 @@
+<!-- Copyright 2020 Tianshu AI Platform. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+=============================================================
+-->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="组_1077" data-name="组 1077" transform="translate(-966 -243)">
+    <g id="椭圆_176" data-name="椭圆 176" transform="translate(966 243)" fill="#eaedfc" stroke="#2e4fde" stroke-width="1">
+      <circle cx="16" cy="16" r="16" stroke="none"/>
+      <circle cx="16" cy="16" r="15.5" fill="none"/>
+    </g>
+    <text id="VS" transform="translate(973 264)" fill="#2e4fde" font-size="14" font-family="PingFang SC Medium, PingFang SC"><tspan x="0" y="0">VS</tspan></text>
+  </g>
+</svg>

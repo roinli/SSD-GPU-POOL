@@ -1,0 +1,19 @@
+<!-- Copyright 2020 Tianshu AI Platform. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+=============================================================
+-->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12.665" viewBox="0 0 12 12.665">
+  <path id="模型icon" d="M125,104.084a.856.856,0,0,1-.357-.093l-4.52-2.127a.754.754,0,0,1,0-1.377l4.3-2.033a1.365,1.365,0,0,1,1.16,0l4.3,2.033a.754.754,0,0,1,0,1.377l-4.52,2.126A.829.829,0,0,1,125,104.084Zm-1.167,6.906a.7.7,0,0,1-.333-.084l-4.084-1.915a.776.776,0,0,1-.417-.7v-4.884a.782.782,0,0,1,.383-.667.714.714,0,0,1,.7,0l4.076,1.914a.793.793,0,0,1,.414.667v4.89a.79.79,0,0,1-.38.667A.764.764,0,0,1,123.83,110.99Zm2.333,0a.743.743,0,0,1-.363-.1.79.79,0,0,1-.38-.667v-4.9a.786.786,0,0,1,.4-.667l4.1-1.926a.707.707,0,0,1,.69.017.777.777,0,0,1,.383.667v4.881a.776.776,0,0,1-.4.7l-4.1,1.917A.7.7,0,0,1,126.164,110.99Z" transform="translate(-118.997 -98.325)" fill="#fff"/>
+</svg>

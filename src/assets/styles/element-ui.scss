@@ -1,0 +1,387 @@
+/*
+* Copyright 2019-2020 Zheng Jie
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
+.el-button--primary {
+  color: #ffffff;
+  background-color: $primaryColor;
+  border-color: $primaryColor;
+
+  &.is-disabled,
+  &.is-disabled:hover,
+  &.is-disabled:focus,
+  &.is-disabled:active {
+    background-color: $primaryHoverColor;
+  }
+}
+// danger button
+.el-button--danger {
+  color: #ff4949;
+  background-color: #ffeded;
+  border-color: #ffb6b6;
+
+  &.is-disabled,
+  &.is-disabled:hover,
+  &.is-disabled:focus,
+  &.is-disabled:active {
+    color: #ff9292;
+    background-color: #ffeded;
+    border-color: #ffdbdb;
+  }
+}
+
+.el-button.danger {
+  color: $red;
+
+  &:hover,
+  &:active {
+    color: $red;
+  }
+}
+
+// el-radio border
+.el-radio.is-bordered {
+  &.is-checked,
+  &:hover {
+    border-color: $primaryBorderColor;
+  }
+}
+
+// radio-button
+.el-radio-button__inner {
+  padding: 8px 25px;
+}
+
+.el-checkbox__inner,
+.el-radio__inner {
+  border-color: $borderColorDark;
+}
+
+.el-radio-button__orig-radio {
+  &:checked + .el-radio-button__inner,
+  &:hover + .el-radio-button__inner {
+    color: $primaryColor;
+    background-color: $primaryPlainBgColor;
+    border-color: $primaryBorderColor;
+    box-shadow: -1px 0 0 0 $primaryBorderColor;
+  }
+
+  &:checked:hover + .el-radio-button__inner {
+    color: #fff;
+    background-color: $primaryHoverColor;
+    border-color: $primaryHoverColor;
+    box-shadow: -1px 0 0 0 $primaryHoverColor;
+  }
+}
+// checkbox-button
+.el-checkbox-button {
+  &.is-checked .el-checkbox-button__inner,
+  .el-checkbox-button__inner:hover {
+    color: $primaryColor;
+    background-color: $primaryPlainBgColor;
+    border-color: $primaryBorderColor !important;
+    box-shadow: -1px 0 0 0 $primaryBorderColor;
+  }
+
+  &.is-focus .el-checkbox-button__inner {
+    border-color: $borderColorBase;
+  }
+
+  &.is-checked .el-checkbox-button__inner:hover {
+    color: #fff;
+    background-color: $primaryHoverColor;
+    border-color: $primaryHoverColor;
+    box-shadow: -1px 0 0 0 $primaryHoverColor;
+  }
+}
+// checkbox__input
+.el-checkbox__input {
+  .el-checkbox__inner:hover {
+    border-color: $primaryBorderColor;
+  }
+
+  &.is-checked .el-checkbox__inner {
+    background-color: $primaryPlainBgColor;
+    border-color: $primaryBorderColor;
+
+    &::after {
+      border-color: $primaryColor;
+    }
+  }
+
+  &.is-indeterminate .el-checkbox__inner {
+    background-color: $primaryPlainBgColor;
+    border-color: $primaryBorderColor;
+
+    &::before {
+      background-color: $primaryColor;
+    }
+  }
+
+  &.is-focus .el-checkbox__inner {
+    border-color: $borderColorBase;
+  }
+}
+// radio
+.el-radio__input {
+  .el-radio__inner:hover {
+    border-color: $primaryBorderColor;
+  }
+
+  &.is-checked .el-radio__inner {
+    background-color: $primaryPlainBgColor;
+    border-color: $primaryBorderColor;
+
+    &::after {
+      background-color: $primaryColor;
+    }
+  }
+}
+// switch
+.el-switch__core {
+  background-color: #c0c4cc;
+}
+
+.el-switch {
+  .el-switch__core:hover {
+    border-color: $primaryBorderColor;
+  }
+
+  &.is-checked .el-switch__core {
+    background-color: $primaryPlainBgColor;
+    border-color: $primaryBorderColor;
+
+    &::after {
+      background-color: $primaryColor;
+    }
+  }
+}
+
+.el-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+
+.el-upload__input {
+  display: none;
+}
+
+.el-dialog {
+  position: relative;
+  left: 0;
+  margin: 0 auto;
+  transform: none;
+}
+
+// dropdown
+.el-dropdown {
+  cursor: pointer;
+}
+
+.el-dropdown-menu {
+  a {
+    display: block;
+  }
+}
+
+.el-range-editor.el-input__inner {
+  display: inline-flex !important;
+}
+
+.el-submenu__title,
+.el-menu-item {
+  font-size: 16px;
+}
+
+.el-table {
+  color: #666;
+
+  thead {
+    color: #666;
+  }
+
+  .highlight-row {
+    background: $primaryPlainBgColor;
+  }
+}
+
+.el-button {
+  padding: 8px 25px;
+
+  &.is-round {
+    padding: 8px 10px;
+  }
+
+  &--text {
+    padding: 8px 0;
+  }
+
+  &--medium {
+    padding: 10px 20px;
+  }
+}
+
+.el-tag {
+  height: 22px;
+  padding: 0 7px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.el-input__inner {
+  height: 32px;
+}
+
+.el-input-number {
+  line-height: 30px;
+}
+
+.el-form-item__label {
+  line-height: 32px;
+}
+
+.el-form-item__content {
+  line-height: 32px;
+}
+
+.el-input__icon {
+  line-height: 32px;
+}
+
+.el-input-number.is-controls-right .el-input-number__increase,
+.el-input-number.is-controls-right .el-input-number__decrease {
+  line-height: 15px;
+}
+
+.el-range-editor .el-range__icon,
+.el-range-editor .el-range__close-icon,
+.el-date-editor .el-range-separator {
+  line-height: 24px;
+}
+
+.el-table-column--selection .cell {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.el-border__default {
+  border: 1px solid $borderColorDark;
+}
+
+.el-link {
+  font-weight: normal;
+}
+
+.el-input__count {
+  background: transparent !important;
+}
+
+.el-drawer__body {
+  overflow: auto;
+}
+
+.block-label-group {
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+}
+
+.item__label {
+  padding: 0 12px 0 0;
+  font-size: 14px;
+  color: $labelColor;
+}
+
+.el-icon-question {
+  cursor: pointer;
+}
+
+.el-tooltip__popper {
+  max-width: 50%;
+}
+
+.info-alert.is-light {
+  margin-bottom: 20px;
+  background-color: $primaryBg;
+
+  .el-alert__content {
+    width: 100%;
+  }
+
+  .el-alert__icon {
+    color: $primaryColor;
+  }
+
+  .slot-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #000;
+
+    a {
+      color: $primaryColor;
+    }
+  }
+}
+
+.el-tooltip__popper.is-light {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 2px 8px 0;
+
+  .popper__arrow {
+    border: none;
+  }
+}
+
+.el-tabs-large .el-tabs__nav .el-tabs__item {
+  font-size: 16px;
+}
+
+.el-card__footer {
+  padding-top: 20px;
+  margin-top: 8px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.el-form-item-explain {
+  min-height: 24px;
+  font-size: 14px;
+  line-height: 1.5715;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+
+.el-tabs__item.is-active {
+    color: $primaryColor;
+}
+
+.el-tabs__active-bar{
+  background-color: $primaryColor;
+}
+
+.el-tabs--left .el-tabs__item.is-active {
+    color: $menuPrimaryColor !important;
+    background: $menuHoverBg  !important;
+}
+
+.el-button--text{
+  color: $primaryColor;
+}
+
+.el-input__inner:focus{
+  border-color: $primaryColor;
+}

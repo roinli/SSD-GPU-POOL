@@ -1,0 +1,112 @@
+<!-- Copyright 2020 Tianshu AI Platform. All Rights Reserved.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+=============================================================
+-->
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="181" height="63" viewBox="0 0 181 63">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.999" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.571" stop-color="#5e88ff"/>
+      <stop offset="0.905" stop-color="#4172ff"/>
+      <stop offset="1" stop-color="#7ea0ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" x2="0.5" y2="0.999" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.464" stop-color="#5e88ff"/>
+      <stop offset="0.905" stop-color="#4172ff"/>
+      <stop offset="1" stop-color="#7ea0ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="0.999" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9faff"/>
+      <stop offset="0.534" stop-color="#5e88ff"/>
+      <stop offset="0.879" stop-color="#4d7cff"/>
+      <stop offset="1" stop-color="#7ea0ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="0.5" x2="0.5" y2="0.999" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.464" stop-color="#5e88ff"/>
+      <stop offset="0.905" stop-color="#4172ff"/>
+      <stop offset="1" stop-color="#608aff"/>
+    </linearGradient>
+  </defs>
+  <g id="现有深度学习" transform="translate(-742 -221)">
+    <g id="加号" transform="translate(780 232)">
+      <rect id="矩形" width="18" height="2" rx="1" transform="translate(0 8)" fill="#83b0ff"/>
+      <rect id="矩形备份_20" data-name="矩形备份 20" width="18" height="2" rx="1" transform="translate(8 18) rotate(-90)" fill="#83b0ff"/>
+    </g>
+    <g id="等号" transform="translate(843 235)">
+      <rect id="矩形备份_21" data-name="矩形备份 21" width="16" height="2" rx="1" fill="#95bcff"/>
+      <rect id="矩形备份_22" data-name="矩形备份 22" width="16" height="2" rx="1" transform="translate(0 8.286)" fill="#95bcff"/>
+    </g>
+    <g id="组_1071" data-name="组 1071" transform="translate(742 221)">
+      <g id="数据">
+        <g id="编组_23" data-name="编组 23">
+          <path id="形状结合" d="M15,16.518c-8.271,0-15-3.233-15-7.207V0C.079,1.85,1.675,3.585,4.5,4.887A25.752,25.752,0,0,0,15,6.908,25.748,25.748,0,0,0,25.5,4.887C28.325,3.585,29.92,1.85,30,0l0,9.31C30,13.285,23.271,16.518,15,16.518Z" transform="translate(0 14.88)" fill="#cad6ff"/>
+          <path id="形状结合备份_3" data-name="形状结合备份 3" d="M15,16.518c-8.271,0-15-3.233-15-7.207V0C.079,1.85,1.675,3.585,4.5,4.887A25.752,25.752,0,0,0,15,6.908,25.748,25.748,0,0,0,25.5,4.887C28.325,3.585,29.92,1.85,30,0l0,9.31C30,13.285,23.271,16.518,15,16.518Z" transform="translate(0 5.905)" fill="#95bcff"/>
+          <path id="形状结合备份_2" data-name="形状结合备份 2" d="M15,16.518c-8.271,0-15-3.233-15-7.207V0C.079,1.85,1.675,3.585,4.5,4.887A25.752,25.752,0,0,0,15,6.908,25.748,25.748,0,0,0,25.5,4.887C28.325,3.585,29.92,1.85,30,0l0,9.31C30,13.285,23.271,16.518,15,16.518Z" transform="translate(0 23.483)" fill="#5e88ff"/>
+          <ellipse id="椭圆形" cx="15" cy="6.406" rx="15" ry="6.406" fill="#5e88ff"/>
+        </g>
+        <rect id="矩形-2" data-name="矩形" width="2.196" height="2.196" rx="1" transform="translate(24.409 13.823)" fill="#fff"/>
+        <rect id="矩形备份_14" data-name="矩形备份 14" width="2.196" height="2.196" rx="1.098" transform="translate(24.409 23.464)" fill="#fff"/>
+        <rect id="矩形备份_17" data-name="矩形备份 17" width="2.196" height="2.196" rx="1.098" transform="translate(24.409 31.728)" fill="#fff"/>
+      </g>
+      <text id="数据-2" data-name="数据" transform="translate(3 59)" fill="#666" font-size="12" font-family="PingFang SC Medium, PingFang SC"><tspan x="0" y="0">数据</tspan></text>
+    </g>
+    <g id="组_1070" data-name="组 1070" transform="translate(806 221)">
+      <g id="标注" transform="translate(0 0)">
+        <path id="矩形-3" data-name="矩形" d="M.026,4.592A4.64,4.64,0,0,1,4.618,0h0a4.455,4.455,0,0,1,4.5,4.5L9.092,7.015A13.626,13.626,0,0,1,4.177,8.356,8.291,8.291,0,0,1,0,7.107Z" transform="translate(20.658 0) rotate(30)" fill="#95bcff"/>
+        <path id="矩形备份_15" data-name="矩形备份 15" d="M.221.069A10.943,10.943,0,0,0,4.33,1.158,13.873,13.873,0,0,0,8.764,0L8.543,26.958A3.169,3.169,0,0,1,8.1,28.552l-2.523,4.24a1.581,1.581,0,0,1-2.725-.019L.436,28.644A3.188,3.188,0,0,1,0,27.009Z" transform="translate(17.108 6.202) rotate(30)" fill="#5e88ff"/>
+        <path id="矩形备份_16" data-name="矩形备份 16" d="M9.269,0,5.788,6.041a1.685,1.685,0,0,1-2.975-.1L0,.148C.057.062,2.26,1.583,4.5,1.579S9.032-.006,9.269,0Z" transform="translate(3.442 29.404) rotate(30)" fill="#cad6ff"/>
+        <path id="矩形-4" data-name="矩形" d="M.1.328A.331.331,0,0,1,.427,0h0A.318.318,0,0,1,.748.321l-.1,9.62a.331.331,0,0,1-.328.328h0A.318.318,0,0,1,0,9.948Z" transform="translate(19.683 13.823) rotate(30)" fill="#fff"/>
+        <path id="路径_13" data-name="路径 13" d="M.064.092,0,.741A14.144,14.144,0,0,0,4.372,1.783,10.042,10.042,0,0,0,9.092.649C9.016,1.6,9.156,0,9.156,0L7.868.554a8.616,8.616,0,0,1-3.642.628A10.785,10.785,0,0,1,.306.243,1.409,1.409,0,0,1,.064.092Z" transform="translate(17.095 6.043) rotate(30)" fill="#fff"/>
+      </g>
+      <text id="标注-2" data-name="标注" transform="translate(2 59)" fill="#666" font-size="12" font-family="PingFang SC Medium, PingFang SC"><tspan x="0" y="0">标注</tspan></text>
+    </g>
+    <g id="组_1069" data-name="组 1069" transform="translate(875 221)">
+      <g id="深度模型" transform="translate(3 0)">
+        <g id="线条" transform="translate(3.327 2.904)">
+          <path id="路径_15" data-name="路径 15" d="M0,5.946,18.689,0,37.378,5.946,18.689,11.892Z" transform="translate(0 0)" fill="none" stroke="#6f89d1" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="路径_17" data-name="路径 17" d="M0,0,19.156,29.417" transform="translate(0 4.755)" fill="none" stroke="#6f89d1" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="路径_16" data-name="路径 16" d="M0,0,18.689,17.65l18.689-5.883L18.689,29.417,0,11.767" transform="translate(0 4.755)" fill="none" stroke="#6f89d1" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="路径_21" data-name="路径 21" d="M19.156,12.518,0,5.851,19.156,0" transform="translate(0 22.28)" fill="none" stroke="#6f89d1" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="路径_18" data-name="路径 18" d="M19.156,11.683,0,17.525,19.156,0" transform="translate(0 0)" fill="none" stroke="#6f89d1" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="路径_19" data-name="路径 19" d="M0,0,19.156,5.633" transform="translate(0 17.261)" fill="none" stroke="#6f89d1" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="路径_20" data-name="路径 20" d="M19.156,11.767,0,29.417,19.156,0" transform="translate(0 0)" fill="none" stroke="#6f89d1" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="路径_22" data-name="路径 22" d="M0,0,19.156,17.525,0,11.683" transform="translate(17.562 0)" fill="none" stroke="#6f89d1" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="路径_23" data-name="路径 23" d="M0,0,19.156,30.043,0,23.7" transform="translate(17.562 0)" fill="none" stroke="#6f89d1" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="路径_24" data-name="路径 24" d="M0,0,19.156,18.252,0,23.784" transform="translate(17.562 10.388)" fill="none" stroke="#6f89d1" stroke-miterlimit="10" stroke-width="0.5"/>
+          <path id="路径_25" data-name="路径 25" d="M0,29.417,19.156,0,0,17.65" transform="translate(17.562 4.755)" fill="none" stroke="#6f89d1" stroke-miterlimit="10" stroke-width="0.5"/>
+        </g>
+        <g id="编组_29" data-name="编组 29" transform="translate(0 5.808)">
+          <circle id="椭圆形-2" data-name="椭圆形" cx="2.925" cy="2.925" r="2.925" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+          <circle id="椭圆形备份_17" data-name="椭圆形备份 17" cx="2.925" cy="2.925" r="2.925" transform="translate(0 11.243)" fill="url(#linear-gradient)"/>
+          <circle id="椭圆形备份_18" data-name="椭圆形备份 18" cx="2.925" cy="2.925" r="2.925" transform="translate(0 22.487)" fill="url(#linear-gradient)"/>
+        </g>
+        <g id="编组_27" data-name="编组 27" transform="translate(18.987 0)">
+          <circle id="椭圆形备份_20" data-name="椭圆形备份 20" cx="2.925" cy="2.925" r="2.925" transform="translate(0 11.383)" fill="url(#linear-gradient-4)"/>
+          <circle id="椭圆形备份_26" data-name="椭圆形备份 26" cx="2.925" cy="2.925" r="2.925" transform="translate(0)" fill="url(#linear-gradient-5)"/>
+          <circle id="椭圆形备份_21" data-name="椭圆形备份 21" cx="2.925" cy="2.925" r="2.925" transform="translate(0 22.767)" fill="url(#linear-gradient-4)"/>
+          <circle id="椭圆形备份_25" data-name="椭圆形备份 25" cx="2.925" cy="2.925" r="2.925" transform="translate(0 34.15)" fill="url(#linear-gradient-4)"/>
+        </g>
+        <g id="编组_28" data-name="编组 28" transform="translate(36.537 5.808)">
+          <circle id="椭圆形备份_22" data-name="椭圆形备份 22" cx="2.925" cy="2.925" r="2.925" transform="translate(0 0)" fill="url(#linear-gradient-8)"/>
+          <circle id="椭圆形备份_23" data-name="椭圆形备份 23" cx="2.925" cy="2.925" r="2.925" transform="translate(0 11.243)" fill="url(#linear-gradient-8)"/>
+          <circle id="椭圆形备份_24" data-name="椭圆形备份 24" cx="2.925" cy="2.925" r="2.925" transform="translate(0 22.487)" fill="url(#linear-gradient-4)"/>
+        </g>
+      </g>
+      <text id="深度模型-2" data-name="深度模型" transform="translate(0 59)" fill="#666" font-size="12" font-family="PingFang SC Medium, PingFang SC"><tspan x="0" y="0">深度模型</tspan></text>
+    </g>
+  </g>
+</svg>

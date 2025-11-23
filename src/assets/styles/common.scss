@@ -1,0 +1,311 @@
+/*
+* Copyright 2019-2020 Zheng Jie
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+* http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
+@import './mixin.scss';
+@import './variables.scss';
+
+//main-container全局样式
+.app-container {
+  padding: 10px 20px 70px 20px;
+
+  .wrapper.fixed {
+    width: 1080px;
+    min-width: 60vw;
+    max-width: calc(100vw - 80px);
+    max-height: 100%;
+    padding: 20px 0 0;
+    margin: 0 auto;
+  }
+}
+
+.head-container {
+  padding-bottom: 10px;
+
+  .title-container {
+    height: 50px;
+    margin-bottom: 25px;
+    line-height: 50px;
+
+    .title-content {
+      display: inline-block;
+      font-size: 18px;
+      font-weight: bold;
+      color: #666;
+    }
+  }
+
+  .filter-item {
+    display: inline-block;
+    margin: 0 3px 10px 0;
+    font-size: 14px;
+    vertical-align: middle;
+  }
+
+  .date-item {
+    display: inline-block;
+    width: 240px;
+    margin: 0 3px 10px 0;
+    vertical-align: middle;
+  }
+
+  .el-select__caret.el-input__icon.el-icon-arrow-up {
+    line-height: 32px;
+  }
+}
+
+.cd-opts {
+  display: -webkit-flex;
+  display: flex;
+  padding: 4px 0;
+
+  /* align-items: center; */
+}
+
+.cd-opts .cd-opts-right {
+  margin-left: auto;
+}
+
+// 自定义search-bar样式
+.search-bar {
+  float: right;
+  margin-top: 8px;
+}
+
+.disabled {
+  color: $infoColor;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+// 自定义drawer样式
+.ts-drawer {
+  margin: 30px 20px 0 0;
+  overflow: auto;
+
+  .title {
+    height: 19px;
+    padding-left: 14px;
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+    color: #666;
+    text-align: unset; // 避免 Login 页样式污染
+    letter-spacing: 1px;
+    border-left: #ffd76d solid 6px;
+  }
+
+  .row {
+    margin-top: 14px;
+
+    div {
+      display: inline-block;
+    }
+
+    .el-col {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .label {
+      width: 76px;
+      height: 19px;
+      margin-left: 24px;
+      font-size: 14px;
+      line-height: 19px;
+      color: rgba(68, 68, 68, 1);
+      letter-spacing: 1px;
+    }
+
+    .text {
+      font-size: 14px;
+      line-height: 19px;
+      color: rgba(68, 68, 68, 1);
+      letter-spacing: 1px;
+    }
+
+    .dynamic {
+      display: flex;
+
+      .label {
+        vertical-align: top;
+      }
+
+      .text {
+        width: calc(100% - 120px);
+      }
+    }
+  }
+}
+
+.eltabs-inlineblock.el-tabs {
+  display: inline-block;
+
+  .el-tabs__header {
+    margin: 0;
+  }
+  // tabs间距调小一点
+  .el-tabs__item {
+    padding: 0 10px;
+  }
+}
+
+.tag-item {
+  width: 100%;
+  overflow: hidden;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+}
+
+.caret {
+  display: inline-block;
+
+  @include triangle(6px, 4px, #5b6b73, 'down');
+}
+
+.sorting-menu {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 3em;
+  max-width: 100%;
+  color: #5b6b73;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+
+  .caret {
+    margin-left: 4px;
+    transition: all 0.2s ease-out;
+  }
+
+  &.is-open {
+    .caret {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.carousel-figure-bg {
+  @include responsive-backgroud;
+
+  width: 600px;
+  height: 328px;
+  margin: 0 auto;
+}
+
+.carousel-figure-dialog {
+  .el-dialog__body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .figure-wrapper {
+    position: relative;
+  }
+
+  .figure-desc {
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+  }
+}
+
+.select-del-btn {
+  float: right;
+  color: $infoColor;
+
+  :hover {
+    color: $primaryHoverColor;
+  }
+}
+
+.tree-container {
+  height: 500px;
+  margin-top: 20px;
+  overflow-y: scroll;
+}
+
+pre {
+  margin: 0;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.command-preview {
+  min-height: 80px;
+  padding: 0 10px;
+  line-height: 25px;
+  color: rgb(204, 204, 204);
+  background: rgb(30, 30, 30);
+  border-radius: 5px;
+}
+
+.field-extra {
+  font-size: 14px;
+  line-height: 1.5;
+  color: $infoColor;
+}
+
+.CodeMirror-lint-tooltip {
+  z-index: 10000 !important;
+}
+
+.app-result-content {
+  padding: 24px 40px;
+  margin-top: 24px;
+  text-align: left;
+  background-color: #fafafa;
+}
+
+.app-result-title {
+  font-size: 24px;
+  line-height: 1.8;
+  color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+}
+
+.app-result-subtitle {
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(0, 0, 0, 0.45);
+  text-align: center;
+}
+
+.rotate {
+  @include rotate(3s);
+}
+
+.ts-tip {
+  padding: 12px 20px;
+  color: $tipColor;
+  background-color: $tipBgColor;
+}
+
+.training-area-title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 12px;
+  margin: 40px 0 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: $areaTitleColor;
+  border-bottom: 1px solid $areaBorderColor;
+}

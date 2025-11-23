@@ -1,0 +1,9 @@
+build/*.js
+src/assets
+public
+dist
+src/components/Crud
+mock
+src/views/visual
+src/store/modules/Visual
+src/utils/VisualUtils

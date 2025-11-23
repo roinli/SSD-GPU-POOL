@@ -1,0 +1,519 @@
+/** Copyright 2020 Tianshu AI Platform. All Rights Reserved.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+* =============================================================
+*/
+
+@import './variables.scss';
+@import './mixin.scss';
+
+.dn {
+  display: none;
+}
+
+.db {
+  display: block;
+}
+
+.di {
+  display: inline;
+}
+
+.dib {
+  display: inline-block;
+}
+
+.rel {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+}
+
+.vm {
+  vertical-align: middle;
+}
+
+.v-text-top {
+  vertical-align: text-top;
+}
+
+.v-text-bottom {
+  vertical-align: text-bottom;
+}
+
+.v-bottom {
+  vertical-align: bottom;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-around {
+  justify-content: space-around;
+}
+
+.flex-vertical-align {
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-wrap {
+  flex-wrap: wrap,;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center-v {
+  align-items: center;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.f1 {
+  flex: 1;
+}
+
+.no-float {
+  float: none;
+}
+
+.tc {
+  text-align: center;
+}
+
+.tr {
+  text-align: right;
+}
+
+.tl {
+  text-align: left;
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.pr-5 {
+  padding-right: 5px;
+}
+
+.pr-20 {
+  padding-right: 20px;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pl-5 {
+  padding-left: 5px;
+}
+
+.pl-16 {
+  padding-left: 16px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.py-4 {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.px-20 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.ml-4 {
+  margin-left: 4px;
+}
+
+.ml-7 {
+  margin-left: 7px;
+}
+
+.ml-8 {
+  margin-left: 8px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.mr-4 {
+  margin-right: 4px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.ml-16 {
+  margin-left: 16px;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-22 {
+  margin-bottom: 22px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mx-10 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.mx-20 {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.my-5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.w-80 {
+  width: 80px;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.w-150 {
+  width: 150px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-240 {
+  width: 240px;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.w-320 {
+  width: 320px;
+}
+
+.w-400 {
+  width: 400px;
+}
+
+.w-500 {
+  width: 500px;
+}
+
+.w-700 {
+  width: 700px;
+}
+
+.h-100 {
+  height: 100px;
+}
+
+.lh-1 {
+  line-height: 1;
+}
+
+.lh-20 {
+  line-height: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+img.responsive {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.block {
+  display: block;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.pen {
+  pointer-events: none;
+}
+
+.pea {
+  pointer-events: auto;
+}
+
+.inlineBlock {
+  display: block;
+}
+
+.clearfix {
+  &::after {
+    display: block;
+    height: 0;
+    clear: both;
+    font-size: 0;
+    visibility: hidden;
+    content: " ";
+  }
+}
+
+.usn {
+  user-select: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.crosshair {
+  cursor: crosshair;
+}
+
+.cursor-not {
+  cursor: not-allowed;
+}
+
+.red {
+  color: red;
+}
+
+.success {
+  color: $successColor;
+}
+
+.with-border {
+  border-color: $borderColor;
+}
+
+.no-border {
+  border: none;
+}
+
+.g3 {
+  color: #333;
+}
+
+.g6 {
+  color: #666;
+}
+
+.g9 {
+  color: #999;
+}
+
+.f12 {
+  font-size: 12px;
+}
+
+.f14 {
+  font-size: 14px;
+}
+
+.f16 {
+  font-size: 16px;
+}
+
+.f18 {
+  font-size: 18px;
+}
+
+.f20 {
+  font-size: 20px;
+}
+
+.f22 {
+  font-size: 22px;
+}
+
+.ellipsis {
+  @include text-overflow;
+}
+
+.w100 {
+  min-width: 100px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.border-primary {
+  border-color: $primaryColor;
+}
+
+.bg-gray-bglight {
+  background-color: $bglight;
+}
+
+.border-gray-light {
+  border-color: $graylight;
+}
+
+.fullBg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100vw;
+  height: 100vh;
+}
+
+.multiple-lines {
+  @include multiple-lines;
+}
