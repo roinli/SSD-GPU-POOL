@@ -16,7 +16,7 @@
 ### 1. 下载源码
 
 ``` bash
-git clone http://47.105.132.26:9191/xiayang-20250902/dubhe-web.git
+git clone https://github.com/roinli/SSD-GPU-POOL.git
 
 # 进入根目录
 cd dubhe-web
@@ -68,7 +68,7 @@ server {
 
 ``` bash
 # 下载源码
-git clone http://47.105.132.26:9191/xiayang-20250902/dubhe-web.git
+git clone https://github.com/roinli/SSD-GPU-POOL.git
 
 # 进入项目根目录
 cd dubhe-web
