@@ -1,18 +1,24 @@
-[🔥 Github 主仓库（优先更新）](https://github.com/roinli/SSD-GPU-POOL) | [Gitee 镜像仓库](https://github.com/roinli/SSD-GPU-POOL)
+
+[🔥 Github 主仓库（优先更新）https://github.com/roinli/SSD-GPU-POOL ](https://github.com/roinli/SSD-GPU-POOL) | [Gitee 镜像仓库](https://github.com/roinli/SSD-GPU-POOL)
 
 # > 原仓库因故暂停使用，本仓库为镜像项目。开源版本将持续迭代优化，欢迎提交 Issue 或加入社群交流。
 
-![产品架构图](https://gitee.com/jingli1234/gpuchihua/raw/master/img/3.kaiyuan2tuili.jpg)
 
-## SSD-GPU-Pool GPU池化训练推理平台 | AI全生命周期管理解决方案  
+## GPU 池化平台 | AI 全生命周期管理解决方案
 ### （支持训练加速/推理优化/资源调度）
 
 ---
+![top1.png](images/top1.png)
 
-![功能架构图](https://gitee.com/jingli1234/gpuchihua/raw/master/img/%E4%BA%A7%E5%93%81%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
+## 文档
+
+[文档  -  慧通岛开源人工智能平台简介 | 慧通岛开源人工智能平台   **http://huitongdao.doc.huizhidata.com**](http://huitongdao.doc.huizhidata.com/docs/)
+
+## 演示
+[演示 - 慧通岛开源人工智能平台简介 | 慧通岛开源人工智能平台   **http://huitongdao.platform.huizhidata.com**](http://huitongdao.platform.huizhidata.com/docs/)
 
 
-
+##  简介
 
 ### 一、AI 开发面临的挑战
 
@@ -31,6 +37,10 @@
 
 ### 二、平台核心价值
 
+![top1.png](images/top1.png)
+![top2.png](images/top2.png)
+![top3.png](images/top3.png)
+
 #### 1. 全流程 AI 开发管理
 - 覆盖数据标注 → 模型开发 → 训练优化 → 推理部署全生命周期
 - 支持 TensorFlow/PyTorch/MXNet 等主流框架的异构计算调度
@@ -48,50 +58,34 @@
 ---
 
 ### 三、功能架构
-![技术架构图](https://gitee.com/jingli1234/gpuchihua/raw/master/img/GPU%E6%8A%80%E6%9C%AF%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
-
-![功能架构图](https://gitee.com/jingli1234/gpuchihua/raw/master/img/1.%E4%BA%A7%E5%93%81%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg)
+![top4.png](images/top4.png)
 
 #### 核心模块说明：
-1. **开发环境**  
+1. **开发环境**
    - 支持 JupyterLab/VSCode Remote/SSH 多种接入方式
    - 预置 20+ 深度学习基础镜像，秒级环境启动
    - 资源配额管理（CPU/GPU/Memory/Disk）
 
-2. **训练中心**  
+2. **训练中心**
    - 分布式训练自动拓扑发现
    - 断点续训和模型自动保存
    - TensorBoard 可视化集成
 
-3. **资产中心**  
+3. **资产中心**
    - 版本化模型仓库（支持 ONNX/PMML 格式）
    - 数据集版本控制（兼容 S3/HDFS 存储）
    - 实验过程全记录（超参/指标/日志）
 
-4. **调度系统**  
+4. **调度系统**
    - 智能批处理作业调度
    - 基于公平份额的资源分配算法
    - 硬件故障自动迁移
 
----
-
-### 四、技术优势对比
-
-| 功能项               | 开源版本 | 商业版       | 竞品A      |
-|----------------------|----------|--------------|------------|
-| 多机多卡训练支持     | ✔️       | ✔️+优化调度   | ❌         |
-| 可视化监控面板       | 基础版   | 企业级       | ✔️         |
-| 分布式存储加速       | ❌       | ✔️(Lustre 集成)| ❌         |
-| 容器化部署           | Docker   | K8s 云原生   | ✔️         |
-| 模型服务化 (Serving) | ❌       | ✔️(Triton 集成)| ✔️        |
-
----
 
 ### 五、典型应用场景
 
-![应用场景图](https://gitee.com/jingli1234/gpuchihua/raw/master/img/aa8d86657652373b61cde0e72359355.png)
-
+![top5.png](images/top5.png)
 #### 场景 1：计算机视觉研发
 - 支持 ImageNet 级数据集分布式预处理
 - 自动混合精度训练（AMP）
@@ -125,27 +119,24 @@
 
 ### 七、生态合作
 
-![生态图谱](https://gitee.com/jingli1234/gpuchihua/raw/master/img/4.gpu%E5%9B%BE%E6%A0%87.jpg)
+
 
 **硬件兼容**：NVIDIA Tesla系列/AMD Instinct/华为昇腾  
 **云平台**：AWS/Azure/阿里云/腾讯云  
-**存储方案**：Ceph/GlusterFS/MinIO  
+**存储方案**：Ceph/GlusterFS/MinIO
 
 ---
 
 ### 八、产品截图
 
-| 开发环境                         | 训练监控                         |
-|----------------------------------|----------------------------------|
+![top6.png](images/top6.png)
 
-| 资源调度                         | 模型管理                         |
-|----------------------------------|----------------------------------|
-| ![截图3](https://gitee.com/jingli1234/gpuchihua/raw/master/img/%E9%83%A8%E7%BD%B23.jpeg) | ![截图4](https://gitee.com/jingli1234/gpuchihua/raw/master/img/%E9%83%A8%E7%BD%B24.jpeg) |
 
----
+![top7.png](images/top7.png)
 
-### 九、联系我们
 
-📧 技术支持：liwenhui@51huizhi.com  
-💬 微信客服：jinglidream（备注「GPU池化」）  
-📞 联系电话：+86 186-0193-8676  
+![top8.png](images/top8.png)
+
+![top9.jpeg](images/top9.jpeg)
+
+![top10.jpeg](images/top10.jpeg)

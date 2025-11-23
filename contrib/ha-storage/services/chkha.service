@@ -1,5 +1,0 @@
-[Unit]
-Description=check NFS, SMB and DRBD status
-
-[Service]
-ExecStart=/bin/bash /etc/drbdha/chkha.sh

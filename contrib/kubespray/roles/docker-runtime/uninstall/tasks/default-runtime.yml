@@ -1,3 +1,0 @@
----
-- name: "remove NVIDIA persistent mode's file"
-  command: "rm -rf /etc/docker-opensourceai"

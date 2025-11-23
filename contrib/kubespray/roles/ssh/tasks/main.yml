@@ -1,3 +1,0 @@
----
-- name: Non secret authentication
-  authorized_key: user="{{ ansible_ssh_user }}" key="{{ lookup('file', ssh_key_path) }}"  state=present

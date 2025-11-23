@@ -1,7 +1,0 @@
-docker_check: true
-
-resource_check: true
-
-opensourceai_registry: docker.io
-
-gcr_image_repo: gcr.io

@@ -1,8 +1,0 @@
-# dotenv environment variables files
-.env
-
-# generated files
-sendha.py
-sendmail.py
-drbdha.res
-keepalived.conf
