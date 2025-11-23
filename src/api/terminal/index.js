@@ -20,7 +20,7 @@ import { API_MODULE_NAME } from '@/config';
 // 获取连接列表
 export function getTerminalList() {
   return request({
-    url: `/${API_MODULE_NAME.DUBHE_PRO}/terminals/list`,
+    url: `/${API_MODULE_NAME.htd_PRO}/terminals/list`,
     method: 'get',
   });
 }
@@ -28,7 +28,7 @@ export function getTerminalList() {
 // 创建连接
 export function createTerminal(data) {
   return request({
-    url: `/${API_MODULE_NAME.DUBHE_PRO}/terminals/create`,
+    url: `/${API_MODULE_NAME.htd_PRO}/terminals/create`,
     method: 'post',
     data,
   });
@@ -37,7 +37,7 @@ export function createTerminal(data) {
 // 保存并停止连接
 export function preserveTerminal(data) {
   return request({
-    url: `/${API_MODULE_NAME.DUBHE_PRO}/terminals/preserve`,
+    url: `/${API_MODULE_NAME.htd_PRO}/terminals/preserve`,
     method: 'post',
     data,
   });
@@ -46,7 +46,7 @@ export function preserveTerminal(data) {
 // 删除连接
 export function deleteTerminal(id) {
   return request({
-    url: `/${API_MODULE_NAME.DUBHE_PRO}/terminals/delete`,
+    url: `/${API_MODULE_NAME.htd_PRO}/terminals/delete`,
     method: 'post',
     data: { id },
   });
@@ -55,7 +55,7 @@ export function deleteTerminal(id) {
 // 重启连接
 export function restartTerminal(data) {
   return request({
-    url: `/${API_MODULE_NAME.DUBHE_PRO}/terminals/restart`,
+    url: `/${API_MODULE_NAME.htd_PRO}/terminals/restart`,
     method: 'post',
     data,
   });
@@ -64,7 +64,7 @@ export function restartTerminal(data) {
 // 根据 id 查询连接详情
 export function getDetailById(id) {
   return request({
-    url: `/${API_MODULE_NAME.DUBHE_PRO}/terminals/detail`,
+    url: `/${API_MODULE_NAME.htd_PRO}/terminals/detail`,
     method: 'get',
     param: { id },
   });

@@ -34,7 +34,7 @@ module.exports = {
   /**
    * @description token key
    */
-  TokenKey: 'DUBHE-ADMIN-TOEKN',
+  TokenKey: 'htd-ADMIN-TOEKN',
   /**
    * @description 请求超时时间，毫秒（默认2分钟）
    */

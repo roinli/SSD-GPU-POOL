@@ -126,6 +126,6 @@
 
 ![top8.png](images/top8.png)
 
-![top9.jpeg](images/top9.png)
+![top9.png](images/top9.png)
 
-![top10.jpeg](images/top10.png)
+![top10.png](images/top10.png)

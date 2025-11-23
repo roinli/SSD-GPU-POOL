@@ -32,7 +32,7 @@ export const API_MODULE_NAME = {
   DCM: 'dcm', // 医学dcm
   TADL: 'tadl', // TADL
   POINT_CLOUD: 'pointCloud',
-  DUBHE_PRO: 'terminal', // 慧通岛专业版
+  htd_PRO: 'terminal', // 慧通岛专业版
 };
 
 // 登录、注册参数配置

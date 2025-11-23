@@ -1,5 +1,5 @@
 {
-  "name": "dubhe-web",
+  "name": "htd-web",
   "version": "3.0.0",
   "description": "之江慧通岛人工智能开源平台",
   "author": "zhejianglab",
@@ -38,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@codeup.teambition.com:zhejianglab/dubhe-web.git"
+    "url": "git@codeup.teambition.com:zhejianglab/htd-web.git"
   },
   "dependencies": {
     "@antv/g2plot": "^2.3.17",

@@ -1,131 +1,154 @@
+# 慧通岛-前端
 
-[🔥 Github 主仓库（优先更新）https://github.com/roinli/SSD-GPU-POOL ](https://github.com/roinli/SSD-GPU-POOL) | [Gitee 镜像仓库](https://github.com/roinli/SSD-GPU-POOL)
+**慧通岛开源人工智能平台**（简称：**慧通岛**），包括海量数据处理、交互式模型构建（包含Notebook和模型可视化）、AI模型高效训练。多维度产品形态满足从开发者到大型企业的不同需求，将提升人工智能技术的研发效率、扩大算法模型的应用范围，进一步构建人工智能生态“朋友圈”。
 
-# > 原仓库因故暂停使用，本仓库为镜像项目。开源版本将持续迭代优化，欢迎提交 Issue 或加入社群交流。
+## 特性
+* 一站式开发
+* 集成先进算法
+* 灵活易用
+* 性能优越
 
+## 预览
+![概览](/public/dubhe_dashboard.png "概览")
 
-## 数算岛（SSD） GPU 池化平台 | AI 全生命周期管理解决方案
-### （支持训练加速/推理优化/资源调度）
+## 源码部署
 
----
-![top1.png](images/top1.png)
+### 1. 下载源码
 
-## 文档
+``` bash
+git clone http://47.105.132.26:9191/xiayang-20250902/dubhe-web.git
 
-[文档  -  慧通岛开源人工智能平台简介 | 慧通岛开源人工智能平台   **http://huitongdao.doc.huizhidata.com**](http://huitongdao.doc.huizhidata.com/docs/)
+# 进入根目录
+cd dubhe-web
 
-## 演示
-[演示 - 慧通岛开源人工智能平台简介 | 慧通岛开源人工智能平台   **http://huitongdao.platform.huizhidata.com**](http://huitongdao.platform.huizhidata.com/docs/)
+```
+### 2. 配置
 
+根据需要修改如下配置文件
+```
+.env.mock
+.env.development
+.env.test
+.env.production
+```
 
-##  简介
+### 3. 构建
+- node版本建议14.21.3 
+``` bash
+# 安装项目依赖
+npm install
 
-### 一、AI 开发面临的挑战
+# 构建生产环境
+npm run build:prod
+```
 
-#### 1. GPU 资源管理困境
-- **资源利用率低**：昂贵算力资源缺乏有效调度，闲置率高达 40%+
-- **多租户管理难**：缺乏细粒度权限控制和资源隔离机制
-- **成本不可控**：缺乏用量监控与成本分析体系
+### 4. 部署
 
-#### 2. AI 开发效率瓶颈
-- **环境配置复杂**：CUDA 版本冲突、依赖包管理等消耗 30%+ 开发时间
-- **协作效率低下**：代码/数据/模型缺乏版本管理和共享机制
-- **训练周期长**：缺乏任务队列管理和分布式训练优化
-- **资产复用困难**：实验过程不可追溯，模型迭代缺乏系统化管理
+- 构建完成后会在根目录生成 dist 文件夹，并将该文件夹上传至服务器；
+- 在服务器 nginx.conf 文件中添加如下配置；
 
----
+``` nginx
+server {
+    listen       80;        # 端口
+    server_name  localhost; # 域名/外网IP
 
-### 二、平台核心价值
+    location / {
+        root   /home/wwwroot/dubhe-web/dist; # dist 文件夹根目录
+        index  index.html;
+        try_files $uri $uri/ /index.html;
+    }
+}
 
-![top1.png](images/top1.png)
-![top2.png](images/top2.png)
-![top3.png](images/top3.png)
+```
 
-#### 1. 全流程 AI 开发管理
-- 覆盖数据标注 → 模型开发 → 训练优化 → 推理部署全生命周期
-- 支持 TensorFlow/PyTorch/MXNet 等主流框架的异构计算调度
-
-#### 2. 智能资源调度引擎
-- 动态 GPU 池化技术：支持 NVIDIA/AMD 多型号 GPU 混合调度
-- 智能排队系统：支持抢占式任务调度和资源回收机制
-- 多租户隔离：基于 cgroups 的硬件资源隔离，QoS 保障
-
-#### 3. 企业级功能特性
-- 分布式训练加速：优化 AllReduce 算法，线性加速比达 0.95+
-- 可视化监控：实时展示 GPU 利用率/显存占用/网络吞吐等 50+ 指标
-- 安全合规：符合 GDPR 的数据加密传输和存储方案
-
----
-
-### 三、功能架构
-
-![top4.png](images/top4.png)
-
-#### 核心模块说明：
-1. **开发环境**
-   - 支持 JupyterLab/VSCode Remote/SSH 多种接入方式
-   - 预置 20+ 深度学习基础镜像，秒级环境启动
-   - 资源配额管理（CPU/GPU/Memory/Disk）
-
-2. **训练中心**
-   - 分布式训练自动拓扑发现
-   - 断点续训和模型自动保存
-   - TensorBoard 可视化集成
-
-3. **资产中心**
-   - 版本化模型仓库（支持 ONNX/PMML 格式）
-   - 数据集版本控制（兼容 S3/HDFS 存储）
-   - 实验过程全记录（超参/指标/日志）
-
-4. **调度系统**
-   - 智能批处理作业调度
-   - 基于公平份额的资源分配算法
-   - 硬件故障自动迁移
+- 保存 `nginx.conf` 并重启 Nginx 使之生效。
 
 
-### 五、典型应用场景
+## 本地开发
 
-![top5.png](images/top5.png)
-#### 场景 1：计算机视觉研发
-- 支持 ImageNet 级数据集分布式预处理
-- 自动混合精度训练（AMP）
-- 模型量化压缩工具链
+``` bash
+# 下载源码
+git clone http://47.105.132.26:9191/xiayang-20250902/dubhe-web.git
 
-#### 场景 2：NLP 模型训练
-- 支持百亿参数大模型训练
-- 梯度累积与显存优化技术
-- HuggingFace 生态深度集成
+# 进入项目根目录
+cd dubhe-web
 
-#### 场景 3：边缘计算部署
-- 模型自动转换为 TensorRT 格式
-- 服务网格化部署管理
-- 在线模型热更新
+# 安装依赖
+npm install
 
----
+# 启动服务 localhost:8013
+npm run dev
+```
 
-### 六、客户案例
+## 接口 Mock
 
-#### 案例 1：某自动驾驶公司
-- **挑战**：千卡集群利用率不足 50%，训练任务排队严重
-- **方案**：部署调度系统 + 分布式存储加速
-- **效果**：资源利用率提升至 82%，训练周期缩短 40%
+当前项目自动集成了接口 mock 服务，用户可以通过 `npm run mock` 启动数据 mock 服务。
 
-#### 案例 2：某医疗 AI 实验室
-- **需求**：满足 HIPAA 合规的协作平台
-- **方案**：多租户隔离 + 数据加密传输
-- **成果**：建立 20+ 研究员的协同开发环境
+- 普通接口：在 `mock` 目录下创建根据请求 url 创建对应文件，比如请求路径是`api/data/datasets`，在就直接创建 `mock/api/data/datasets.js` 文件，并导出 mock 文件
+- RESTful 风格接口：在 `mock/mock-map` 文件下创建对应的文件 map, key 为符合[path-to-regexp](https://github.com/pillarjs/path-to-regexp) 风格的路径，value 为对应的实际 mock 文件地址
 
+如果用户未创建 mock 文件，请求会转发到 `development` 环境指定的 api 地址。
 
-### 八、产品截图
+## 项目结构
 
-![top6.png](images/top6.png)
+```
+├── public          公共静态文件 
+├── src             源码目录 
+│   ├── api         接口 
+│   ├── assets      静态资源 
+│   ├── assets      静态资源 
+│   ├── boot        全局加载 
+│   ├── components  公共组件 
+│   ├── config      全局配置 
+│   ├── directives  全局指令 
+│   ├── hooks       全局Hook 
+│   ├── layout      页面布局 
+│   ├── mixins      混入 
+│   ├── router      路由 
+│   ├── store       存储 
+│   ├── utils       工具函数 
+│   ├── views       页面 
+│   ├── App.vue     根组件 
+│   ├── main.js     项目入口 
+│   └── settings.js 项目设置 
+```
 
+## production配置示例
 
-![top7.png](images/top7.png)
+```angular2html
+ENV = 'production'
 
+# 默认BASE URL
+VUE_APP_BASE_API = '/'
 
-![top8.png](images/top8.png)
+# TODO: 目前后端连接位于 30960端口 k8s 服务，需要后端调整后再同步调整
+# WebSocket 连接地址
+VUE_APP_WS_API = 'ws://182.40.194.71:30960/ws'
 
-![top9.png](images/top9.png)
+# 数据管理
+VUE_APP_DATA_API = '/'
 
-![top10.png](images/top10.png)
+# 训练可视化
+VUE_APP_VISUAL_API = '/'
+
+# minio
+VUE_APP_MINIO_API = 'http://182.40.194.71:30900/minio'
+
+# atlas
+VUE_APP_ATLAS_HOST = 'http://182.40.194.71'
+
+# DCM4CHEE
+VUE_APP_DCM_API = 'http://182.40.194.71:30800/dcm4chee/dcm4chee-arc/aets/DCM4CHEE_ADMIN'
+
+# minIO 服务 IP
+VUE_APP_MINIO_ENDPOINT = '182.40.194.71'
+# minIO 服务 端口
+VUE_APP_MINIO_PORT = '30900'
+# 是  开启 SSL
+VUE_APP_MINIO_USESSL = 'false'
+# bucketName
+VUE_APP_MINIO_BUCKETNAME = 'dubhe-prod'
+
+# 文档链接
+VUE_APP_DOCS_URL = http://huitongdao.doc.huizhidata.com/docs/
+```

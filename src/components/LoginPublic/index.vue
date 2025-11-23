@@ -55,7 +55,7 @@
         <!-- 左侧部分 -->
         <slot />
         <!--   <div class="footer-logo">
-          <img src="@/assets/images/dubhe-logo.svg" width="74" alt />
+          <img src="@/assets/images/htd-logo.svg" width="74" alt />
         </div> -->
       </div>
     </div>

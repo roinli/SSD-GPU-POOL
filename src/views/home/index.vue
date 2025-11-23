@@ -18,7 +18,7 @@
   <div class="index-content">
     <div class="index-header">
       <div class="index-logo">
-        <img src="@/assets/images/dubhe-logo.svg" width="60" alt="logo" />
+        <img src="@/assets/images/htd-logo.svg" width="60" alt="logo" />
       </div>
       <div class="index-avatar">
         <img :src="user.avatar" :alt="user.nickName" :title="user.nickName" class="user-avatar" />
@@ -90,7 +90,7 @@ import giftHover3 from '@/assets/images/home/gift3-hover.png';
 import ImagePublic from './imagePublic';
 
 export default {
-  name: 'DubheIndex',
+  name: 'htdIndex',
   components: {
     ImagePublic,
   },
