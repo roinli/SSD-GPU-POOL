@@ -11,6 +11,8 @@
 ![top1.png](images/top1.png)
 
 ## 文档
+[必读文档：先运行了再说其他的 https://github.com/roinli/SSD-GPU-POOL/blob/master/README%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3.md](https://github.com/roinli/SSD-GPU-POOL/blob/master/README%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3.md)
+
 
 [文档  -  慧通岛开源人工智能平台简介 | 慧通岛开源人工智能平台   **http://huitongdao.doc.huizhidata.com**](http://huitongdao.doc.huizhidata.com/docs/)
 

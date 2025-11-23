@@ -9,7 +9,6 @@
 * 性能优越
 
 ## 预览
-![概览](/public/dubhe_dashboard.png "概览")
 
 ## 源码部署
 
