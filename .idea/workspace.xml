@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84ba0045-2144-4e9e-b6ab-c22ce1e320cc" name="Changes" comment="更新有训练视频的版本">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763894575082</updated>
-      <workItem from="1763894576449" duration="966000" />
+      <workItem from="1763894576449" duration="1087000" />
     </task>
     <task id="LOCAL-00001" summary="更新有训练视频的版本">
       <option name="closed" value="true" />
@@ -70,7 +69,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763895403680</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="更新有训练视频的版本">
+      <option name="closed" value="true" />
+      <created>1763895555177</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763895555177</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新有训练视频的版本">
+      <option name="closed" value="true" />
+      <created>1763895618420</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763895618420</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
