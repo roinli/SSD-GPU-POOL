@@ -1,138 +1,146 @@
+# 数算岛（SSD）开源 GPU 智算管理平台
 
-[🔥 Github 主仓库（优先更新）https://github.com/roinli/SSD-GPU-POOL ](https://github.com/roinli/SSD-GPU-POOL) | [Gitee 镜像仓库](https://github.com/roinli/SSD-GPU-POOL)
+当前版本：3.0.0
 
-# > 原仓库因故暂停使用，本仓库为镜像项目。开源版本将持续迭代优化，欢迎提交 Issue 或加入社群交流。
+[🔥 GitHub 主仓库（当前）](https://github.com/roinli/SSD-GPU-POOL)
 
-## 社区
+[🔥 帮助文档](https://huitongdao.doc.huizhidata.com/docs/)
 
-#### - 微信讨论群：jinglidream (进群前，请在网页右上角点star)
-#### - 智算平台解决方案与部署文档，请进入讨论交流群，群文件自行下载，欢迎讨论与交流
+[🔥 在线体验](https://huitongdao.platform.huizhidata.com)
 
+> 面向科研机构与企业 AI 团队的一站式 AI 开发平台，以 GPU 池化调度为底座，覆盖数据准备、模型开发、训练、推理部署到可视分析全流程。
 
-## 数算岛（SSD） GPU 池化平台 | AI 全生命周期管理解决方案
-### （支持训练加速/推理优化/资源调度）
+<p align="center">
+    <a href="https://huitongdao.platform.huizhidata.com">在线体验</a> | <a href="https://huitongdao.doc.huizhidata.com/docs/">帮助文档</a>
+</p>
 
----
-![top1.png](images/top1.png)
+<p align="center">
+    <img src="https://img.shields.io/badge/SSD-v3.0.0-brightgreen" alt="SSD">
+    <img src="https://img.shields.io/badge/license-Apache%202.0-blue" alt="license">
+    <img src="https://img.shields.io/badge/Vue-2.6-brightgreen" alt="Vue">
+    <img src="https://img.shields.io/badge/Element%20UI-2.13-orange" alt="ElementUI">
+</p>
 
-## 文档
-[必读文档：先运行了再说其他的 https://github.com/roinli/SSD-GPU-POOL/blob/master/README%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3.md](https://github.com/roinli/SSD-GPU-POOL/blob/master/README%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3.md)
+⚡️数算岛（SSD）开源 GPU 智算管理平台⚡️；⚡️一站式 AI 开发平台⚡️；⚡️GPU 池化调度⚡️；数据准备、Notebook 开发、分布式训练、模型仓库、在线推理、可视分析，NVIDIA/AMD 多型号 GPU 混合纳管、智能排队与多租户隔离，面向科研机构与企业 AI 团队的一站式 AI 全生命周期解决方案。
 
-
-[文档  -  慧通岛开源人工智能平台简介 | 慧通岛开源人工智能平台   **http://huitongdao.doc.huizhidata.com**](http://huitongdao.doc.huizhidata.com/docs/)
-
-## 演示
-[演示 - 慧通岛开源人工智能平台简介 | 慧通岛开源人工智能平台   **http://huitongdao.platform.huizhidata.com**](http://huitongdao.platform.huizhidata.com/docs/)
-
-
-##  简介
-
-### 一、AI 开发面临的挑战
-
-#### 1. GPU 资源管理困境
-- **资源利用率低**：昂贵算力资源缺乏有效调度，闲置率高达 40%+
-- **多租户管理难**：缺乏细粒度权限控制和资源隔离机制
-- **成本不可控**：缺乏用量监控与成本分析体系
-
-#### 2. AI 开发效率瓶颈
-- **环境配置复杂**：CUDA 版本冲突、依赖包管理等消耗 30%+ 开发时间
-- **协作效率低下**：代码/数据/模型缺乏版本管理和共享机制
-- **训练周期长**：缺乏任务队列管理和分布式训练优化
-- **资产复用困难**：实验过程不可追溯，模型迭代缺乏系统化管理
+本仓库基于 Apache 2.0 协议发布，前端代码全开源无加密、可免费商用，适合科研机构与企业 AI 团队在此基础上快速构建自己的 AI 智算管理平台。
 
 ---
 
-### 二、平台核心价值
+## 📖 项目介绍
 
-![top1.png](images/top1.png)
-![top2.png](images/top2.png)
-![top3.png](images/top3.png)
+系统采用前后端分离架构，前端基于 Vue 2 + Element UI 构建，界面简洁流畅。平台围绕「数据准备 → 模型开发 → 训练 → 推理部署 → 可视分析」实现 AI 研发全流程闭环：Notebook 环境秒级启动，训练任务智能排队与断点续训，模型一键部署为在线服务；底层以 GPU 池化调度为底座，支持 NVIDIA/AMD 多型号 GPU 混合纳管、按需分配与资源回收，多租户隔离、数据独立、权限分级。
 
-#### 1. 全流程 AI 开发管理
-- 覆盖数据标注 → 模型开发 → 训练优化 → 推理部署全生命周期
-- 支持 TensorFlow/PyTorch/MXNet 等主流框架的异构计算调度
-
-#### 2. 智能资源调度引擎
-- 动态 GPU 池化技术：支持 NVIDIA/AMD 多型号 GPU 混合调度
-- 智能排队系统：支持抢占式任务调度和资源回收机制
-- 多租户隔离：基于 cgroups 的硬件资源隔离，QoS 保障
-
-#### 3. 企业级功能特性
-- 分布式训练加速：优化 AllReduce 算法，线性加速比达 0.95+
-- 可视化监控：实时展示 GPU 利用率/显存占用/网络吞吐等 50+ 指标
-- 安全合规：符合 GDPR 的数据加密传输和存储方案
+![数算岛封面](images/top1.png)
+![平台核心价值](images/top2.png)
+![平台核心价值](images/top3.png)
+![平台功能架构](images/top4.png)
+![典型应用场景](images/top5.png)
 
 ---
 
-### 三、功能架构
+## 📸 产品截图
 
-![top4.png](images/top4.png)
-
-#### 核心模块说明：
-1. **开发环境**
-   - 支持 JupyterLab/VSCode Remote/SSH 多种接入方式
-   - 预置 20+ 深度学习基础镜像，秒级环境启动
-   - 资源配额管理（CPU/GPU/Memory/Disk）
-
-2. **训练中心**
-   - 分布式训练自动拓扑发现
-   - 断点续训和模型自动保存
-   - TensorBoard 可视化集成
-
-3. **资产中心**
-   - 版本化模型仓库（支持 ONNX/PMML 格式）
-   - 数据集版本控制（兼容 S3/HDFS 存储）
-   - 实验过程全记录（超参/指标/日志）
-
-4. **调度系统**
-   - 智能批处理作业调度
-   - 基于公平份额的资源分配算法
-   - 硬件故障自动迁移
-
-
-### 五、典型应用场景
-
-![top5.png](images/top5.png)
-#### 场景 1：计算机视觉研发
-- 支持 ImageNet 级数据集分布式预处理
-- 自动混合精度训练（AMP）
-- 模型量化压缩工具链
-
-#### 场景 2：NLP 模型训练
-- 支持百亿参数大模型训练
-- 梯度累积与显存优化技术
-- HuggingFace 生态深度集成
-
-#### 场景 3：边缘计算部署
-- 模型自动转换为 TensorRT 格式
-- 服务网格化部署管理
-- 在线模型热更新
+![产品截图](images/top6.png)
+![产品截图](images/top7.png)
+![产品截图](images/top8.png)
+![产品截图](images/top9.png)
+![产品截图](images/top10.png)
 
 ---
 
-### 六、客户案例
+## 🎬 产品演示
 
-#### 案例 1：某自动驾驶公司
-- **挑战**：千卡集群利用率不足 50%，训练任务排队严重
-- **方案**：部署调度系统 + 分布式存储加速
-- **效果**：资源利用率提升至 82%，训练周期缩短 40%
+在线体验：https://huitongdao.platform.huizhidata.com
 
-#### 案例 2：某医疗 AI 实验室
-- **需求**：满足 HIPAA 合规的协作平台
-- **方案**：多租户隔离 + 数据加密传输
-- **成果**：建立 20+ 研究员的协同开发环境
+演示环境权限开放，请勿随意删除数据。本地启动体验见下方「快速开始」。
+
+---
+
+## 📚 项目资料
+
+- 帮助文档：https://huitongdao.doc.huizhidata.com/docs/ （使用文档 / 部署文档）
+- GitHub 主仓库：https://github.com/roinli/SSD-GPU-POOL
+- 微信讨论群：jinglidream（进群前请在仓库右上角点 Star）
+
+---
+
+## 核心功能
+
+#### 算力驾驶舱与大屏
+全局态势一屏掌握：GPU 利用率、显存占用、节点状态、训练任务进度等关键指标实时呈现。
+
+#### 数据准备与标注
+数据集版本化管理，支持文本、图像、点云、医疗影像等多种数据标注工具，为模型训练备好数据。
+
+#### Notebook 开发环境
+秒级启动 JupyterLab / VSCode / SSH 开发环境，预置 20+ 深度学习基础镜像，资源配额一键分配。
+
+#### 训练中心
+训练任务全生命周期管理：镜像选择、分布式训练、断点续训、模型自动保存，训练过程全程可追溯。
+
+#### 模型与算法
+版本化模型仓库，支持模型上传、版本管理与在线预览；提供模型优化（量化/剪枝）、TADL 自动调参与算法管理。
+
+#### 在线推理与云服务
+训练好的模型一键部署为在线推理服务，支持批量推理任务与实时监控，服务 API 开箱即用。
+
+#### 可视分析
+训练过程可视化：指标曲线、媒体、图结构、超参对比、Embedding 等多维度分析，媲美 TensorBoard。
+
+#### GPU 池化调度
+NVIDIA/AMD 多型号 GPU 混合纳管，智能排队、按需分配、资源回收，把闲置算力真正用起来。
+
+#### 多租户与权限
+用户、角色、用户组三级权限体系，配额管理，多团队数据独立、互不干扰。
+
+---
+
+## 系统优势
+
+- **GPU 池化调度底座** —— NVIDIA/AMD 多型号混合纳管，按需分配、智能排队、资源回收
+- **AI 研发全流程闭环** —— 数据准备→开发→训练→推理→可视分析一条龙
+- **多租户与细粒度权限** —— 数据独立、权限隔离、配额管理
+- **开源可扩展** —— Apache 2.0 协议，前端代码自由定制，社区持续迭代
+
+---
+
+## 🚀 快速开始
+
+环境要求：Node.js 14+（Node 18+ 需设置 `NODE_OPTIONS=--openssl-legacy-provider`）
+
+```bash
+# 1. 安装依赖
+npm install
+
+# 2. 启动开发环境
+npm run dev
+
+# 3. 浏览器访问 http://localhost:8013 登录体验
+```
+
+> 前端默认连接平台后端接口，后端地址在 `.env.development` 中通过 `VUE_APP_BASE_API` 等变量配置；后端服务部署与完整平台搭建见[帮助文档](https://huitongdao.doc.huizhidata.com/docs/)。
+
+---
+
+## 功能矩阵
+
+| 🔴 数据准备 | 🟠 开发环境 | 🟡 训练中心 | 🟢 模型算法 | 🔵 在线推理 | 🟣 平台管理 |
+|---|---|---|---|---|---|
+| 数据集管理 | Notebook 开发环境 | 训练任务管理 | 模型仓库与版本管理 | 在线推理服务 | GPU 池化调度 |
+| 数据标注（文本/图像/点云） | Web 终端 / SSH 接入 | 训练镜像管理 | 模型优化（量化/剪枝） | 批量推理任务 | 多租户与权限隔离 |
+| 医疗影像管理 | 预置深度学习镜像 | 分布式训练 | 算法管理 | 服务监控 | 节点 / Pod 管理 |
+| 数据文件管理 | 资源配额管理 | 断点续训与自动保存 | TADL 自动调参 | 服务 API 管理 | 资源回收与告警 |
+
+---
 
 
-### 八、产品截图
+## 反馈与交流
 
-![top6.png](images/top6.png)
+- 项目主页：https://github.com/roinli/SSD-GPU-POOL
+- 微信讨论群：jinglidream（进群前请在仓库右上角点 Star）
+- 欢迎通过 GitHub Issues 提交 Bug、交流方案、获取更新动态。
 
+---
 
-![top7.png](images/top7.png)
-
-
-![top8.png](images/top8.png)
-
-![top9.png](images/top9.png)
-
-![top10.png](images/top10.png)
+© 2026 慧知 版权所有 · 开源协议：Apache License 2.0 · 详见 [LICENSE](./LICENSE)

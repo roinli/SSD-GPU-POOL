@@ -1,4 +1,4 @@
-/** Copyright 2020 Tianshu AI Platform. All Rights Reserved.
+/** Copyright 2026 慧知. All Rights Reserved.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -20,7 +20,6 @@ import ZIP from './zip';
 
 const pMap = require('p-map');
 
-//streamSaver.mitm = 'https://static.zhejianglab.com/mitm.html';
 
 // 默认名字解析
 const defaultName = (file) => file.name;

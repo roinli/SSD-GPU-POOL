@@ -7,7 +7,558 @@
     <list default="true" id="84ba0045-2144-4e9e-b6ab-c22ce1e320cc" name="Changes" comment="更新有训练视频的版本">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README部署文档.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/top1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/top1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/top5.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/top5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/algorithm/algorithm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/algorithm/algorithm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/algorithm/algorithmUsage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/algorithm/algorithmUsage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/atlas/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/atlas/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/cloudServing/batch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/cloudServing/batch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/cloudServing/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/cloudServing/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/development/notebook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/development/notebook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/model/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/model/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/model/modelVersion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/model/modelVersion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/modelOptimize/optimize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/modelOptimize/optimize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/modelOptimize/record.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/modelOptimize/record.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/preparation/annotation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/preparation/annotation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/preparation/datafile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/preparation/datafile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/preparation/datalabel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/preparation/datalabel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/preparation/dataset.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/preparation/dataset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/preparation/labelGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/preparation/labelGroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/preparation/medical.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/preparation/medical.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/preparation/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/preparation/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/preparation/pointCloud.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/preparation/pointCloud.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/preparation/textData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/preparation/textData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/authCode.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/system/authCode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/dict.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/system/dict.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/dictDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/system/dictDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/system/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/node.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/system/node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/permission.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/system/permission.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/pod.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/system/pod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/recycle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/system/recycle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/system/resources.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/role.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/system/role.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/system/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/system/userGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/system/userGroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/tadl/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/tadl/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/tadl/strategy.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/tadl/strategy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/terminal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/terminal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/trainingImage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/trainingImage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/trainingJob/job.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/trainingJob/job.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/trainingJob/params.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/trainingJob/params.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/visual/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/visual/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/atlas/current-img.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/atlas/current-img.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/atlas/idea-img.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/atlas/idea-img.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/atomic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/atomic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boot/errorHandle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/boot/errorHandle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boot/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/boot/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ActionItems/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ActionItems/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BaseForm/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseForm/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BaseModal/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseModal/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BaseTable/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseTable/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BaseTooltip/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BaseTooltip/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Card/info.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/info.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CollapseBox/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CollapseBox/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Description/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Description/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Description/item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Description/item.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Drag/drag.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Drag/drag.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Drag/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Drag/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DropdownHeader/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DropdownHeader/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Exception/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Exception/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IconFont/icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IconFont/icon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IconFont/iconfont.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IconFont/iconfont.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IconFont/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IconFont/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IconFont/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IconFont/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ImageGallery/ImageItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImageGallery/ImageItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ImageGallery/consts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImageGallery/consts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ImageGallery/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImageGallery/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InfoAlert/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InfoAlert/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InfoRadio/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InfoRadio/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InfoRadio/info-radio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InfoRadio/info-radio.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InfoSelect/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InfoSelect/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InfoSelect/info-select.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InfoSelect/info-select.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InfoTable/column.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InfoTable/column.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InfoTable/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InfoTable/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InfoTable/info-table.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InfoTable/info-table.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InlineTableEdit/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InlineTableEdit/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LogContainer/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LogContainer/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LogContainer/podLogContainer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LogContainer/podLogContainer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MsgPopover/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MsgPopover/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PodMonitor/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PodMonitor/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PodMonitor/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PodMonitor/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Prism/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Prism/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProTable/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProTable/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProTable/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProTable/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchBox/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBox/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SortingMenu/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortingMenu/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Statistic/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Statistic/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Training/algorithmDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Training/algorithmDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Training/atlasJobForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Training/atlasJobForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Training/dataSourceSelector.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Training/dataSourceSelector.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Training/jobForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Training/jobForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Training/paramPair.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Training/paramPair.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Training/runParamForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Training/runParamForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Training/saveModelDialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Training/saveModelDialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UploadForm/FileFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UploadForm/FileFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UploadForm/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UploadForm/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UploadForm/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UploadForm/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UploadForm/inline.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UploadForm/inline.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UploadForm/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UploadForm/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UploadForm/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UploadForm/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UploadProgress/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UploadProgress/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserResourceMonitor/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserResourceMonitor/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserResourceMonitor/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserResourceMonitor/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WaveSurfer/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WaveSurfer/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/YamlEditor/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/YamlEditor/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ZoomContainer/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ZoomContainer/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/editor/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/editor/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/svg/brush/Brush.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/svg/brush/Brush.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/svg/brush/BrushCorner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/svg/brush/BrushCorner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/svg/brush/BrushHandle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/svg/brush/BrushHandle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/svg/brush/BrushSelection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/svg/brush/BrushSelection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/svg/brush/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/svg/brush/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/svg/group/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/svg/group/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/svg/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/svg/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/textEditor.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/textEditor.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/directives/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/directives/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/directives/modules/clickOnce.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/directives/modules/clickOnce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/directives/modules/elSelectLoadMore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/directives/modules/elSelectLoadMore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/directives/modules/mouseWheel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/directives/modules/mouseWheel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/brush/BasicBrush.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/brush/BasicBrush.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/brush/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/brush/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/brush/useBrush.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/brush/useBrush.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/dict/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/dict/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/draw/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/draw/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/draw/useDraw.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/draw/useDraw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/image/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/image/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/keepPageInfo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/keepPageInfo/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/localStorage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/localStorage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/mapGetters/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/mapGetters/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/pagination/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/pagination/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/sort/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/sort/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/tooltip/BasicTooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/tooltip/BasicTooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/tooltip/TooltipContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/tooltip/TooltipContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/tooltip/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/tooltip/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/tooltip/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/tooltip/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/tooltip/tableTooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/tooltip/tableTooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/tooltip/useTooltip.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/tooltip/useTooltip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/zoom/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/zoom/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/zoom/useZoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/zoom/useZoom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/DatasetLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/DatasetLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/DetailLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/DetailLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/FullpageLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/FullpageLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/SubpageLayout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/SubpageLayout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/Feedback/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/Feedback/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/Guideline/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/Guideline/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/Navbar/BackIcon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/Navbar/BackIcon.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/ResourceMonitoring/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/ResourceMonitoring/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/Sidebar/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/Sidebar/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/api-map/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/api-map/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/api-map/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/api-map/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixins/baseMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mixins/baseMixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixins/datePickerMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mixins/datePickerMixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixins/openNotebookMixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mixins/openNotebookMixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/Visual/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/Visual/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/Visual/embedding.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/Visual/embedding.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/Visual/exception.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/Visual/exception.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/Visual/graph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/Visual/graph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/Visual/hiddenstate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/Visual/hiddenstate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/Visual/hyperparm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/Visual/hyperparm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/Visual/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/Visual/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/Visual/media.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/Visual/media.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/Visual/scalar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/Visual/scalar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/Visual/statistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/Visual/statistic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/Visual/transformer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/Visual/transformer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/cloudServing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/cloudServing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/dataset.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/dataset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/modelOptimize.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/modelOptimize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/modules/tadl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/modules/tadl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svgs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/svgs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svgs/svgs/atlas-algorithm.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/svgs/svgs/atlas-algorithm.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svgs/svgs/atlas-create.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/svgs/svgs/atlas-create.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svgs/svgs/atlas-current.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/svgs/svgs/atlas-current.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svgs/svgs/atlas-cv.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/svgs/svgs/atlas-cv.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svgs/svgs/atlas-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/svgs/svgs/atlas-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svgs/svgs/atlas-idea.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/svgs/svgs/atlas-idea.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svgs/svgs/atlas-introduce.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/svgs/svgs/atlas-introduce.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svgs/svgs/atlas-vs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/svgs/svgs/atlas-vs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svgs/svgs/learning-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/svgs/svgs/learning-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svgs/svgs/terminal-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/svgs/svgs/terminal-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/svgs/svgs/vis-logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/svgs/svgs/vis-logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/VisualUtils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/VisualUtils/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/VisualUtils/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/VisualUtils/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/VisualUtils/download.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/VisualUtils/download.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/VisualUtils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/VisualUtils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/constant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/download.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/download.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/event.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/minIO.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/minIO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/mitt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/mitt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/algorithm/components/algorithmForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/algorithm/components/algorithmForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/algorithm/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/algorithm/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/algorithm/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/algorithm/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/atlas/components/measureForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/atlas/components/measureForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/atlas/graphList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/atlas/graphList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/atlas/graphVisual.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/atlas/graphVisual.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/atlas/measure.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/atlas/measure.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/atlas/modelRestructuring.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/atlas/modelRestructuring.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/atlas/realtime.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/atlas/realtime.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/atlas/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/atlas/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/atlas/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/atlas/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/batch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/batch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/batchDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/batchDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/components/forms/batchServingForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/components/forms/batchServingForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/components/forms/batchUploadDialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/components/forms/batchUploadDialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/components/forms/servingForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/components/forms/servingForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/components/forms/servingModelConfig.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/components/forms/servingModelConfig.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/components/keyValueTable/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/components/keyValueTable/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/components/modelDetail/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/components/modelDetail/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/components/servingCallGuide/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/components/servingCallGuide/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/components/servingCallGuide/servingApiInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/components/servingCallGuide/servingApiInfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/components/servingDeploymentRecord/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/components/servingDeploymentRecord/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/components/servingLog/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/components/servingLog/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/components/servingMonitor/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/components/servingMonitor/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/components/servingMonitor/servingMonitorCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/components/servingMonitor/servingMonitorCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/components/servingMonitor/servingMonitorUsageUnit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/components/servingMonitor/servingMonitorUsageUnit.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/components/servingPredict/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/components/servingPredict/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/detail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/formPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/formPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/cloudServing/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/cloudServing/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dashboard/components/CardPanel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/components/CardPanel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dashboard/components/Welcome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/components/Welcome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dashboard/dashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/dashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/annotations.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/annotations.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/editLabel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/editLabel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/enhance.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/enhance.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/enhanceTip.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/enhanceTip.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/label.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/label.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/labelList/edit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/labelList/edit.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/labelList/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/labelList/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/labelTip.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/labelTip.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/selectLabel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/settingContainer/selectLabel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/thumbContainer/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/thumbContainer/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/thumbContainer/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/thumbContainer/list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/thumbContainer/listItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/thumbContainer/listItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/annotationId.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/annotationId.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/bbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/bbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/bboxWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/bboxWrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/brushTip.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/brushTip.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/dropdownLabel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/dropdownLabel/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/dropdownLabel/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/dropdownLabel/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/score.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/score.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/segmentation/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/segmentation/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/segmentation/polygon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/segmentation/polygon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/segmentation/polyline.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/segmentation/polyline.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/segmentation/selection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/segmentation/selection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/segmentation/vertice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/segmentation/vertice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/tag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/tag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/toolbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/annotate/workSpaceContainer/toolbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/audio/annotation/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/audio/annotation/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/audio/list/AudioCards.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/audio/list/AudioCards.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/audio/list/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/audio/list/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/audio/workspace/audioClassify.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/audio/workspace/audioClassify.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/audio/workspace/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/audio/workspace/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/audio/workspace/speechRecognition.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/audio/workspace/speechRecognition.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/classification/Classification.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/classification/Classification.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/classification/components/Actions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/classification/components/Actions.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/classification/components/EditLabels.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/classification/components/EditLabels.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/classification/components/Labels.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/classification/components/Labels.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/classification/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/classification/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/classify.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/classify.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/components/labelEditor/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/components/labelEditor/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/components/picInfoModal/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/components/picInfoModal/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/components/searchLabel/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/components/searchLabel/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/components/tenant/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/components/tenant/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/components/textInfoModal/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/components/textInfoModal/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/custom/GridTable/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/custom/GridTable/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/custom/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/custom/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/entrance.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/entrance.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/file-management.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/file-management.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/fork.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/fork.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/list/action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/list/action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/list/auto-annotate/filter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/list/auto-annotate/filter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/list/auto-annotate/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/list/auto-annotate/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/list/create-dataset.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/list/create-dataset.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/list/data-enhance.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/list/data-enhance.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/list/edit-dataset.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/list/edit-dataset.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/list/import-dataset.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/list/import-dataset.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/list/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/list/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/list/publish.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/list/publish.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/list/status.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/list/status.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/list/track.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/list/track.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/list/upload-datafile.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/list/upload-datafile.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/auto-annotate/filter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/auto-annotate/filter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/auto-annotate/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/auto-annotate/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/constant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/create-dataset.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/create-dataset.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/edit-dataset.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/edit-dataset.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/lib/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/lib/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/lib/gui.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/lib/gui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/status.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/status.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/viewer/action.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/viewer/action.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/viewer/controls.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/viewer/controls.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/viewer/helpInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/viewer/helpInfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/viewer/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/viewer/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/viewer/infoLayer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/viewer/infoLayer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/viewer/lesionInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/viewer/lesionInfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/viewer/toolbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/viewer/toolbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/viewer/toolbarButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/viewer/toolbarButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/viewer/toolbarItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/viewer/toolbarItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/medical/viewer/toolbarMore.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/medical/viewer/toolbarMore.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/modelService/Action.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/modelService/Action.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/modelService/CreateModelService.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/modelService/CreateModelService.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/modelService/ModelServiceLog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/modelService/ModelServiceLog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/modelService/ModifyModelService.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/modelService/ModifyModelService.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/modelService/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/modelService/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/modelService/status.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/modelService/status.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/nlp/annotation/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/nlp/annotation/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/nlp/annotation/sidebar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/nlp/annotation/sidebar/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/nlp/annotation/sidebar/labelList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/nlp/annotation/sidebar/labelList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/nlp/annotation/workspace/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/nlp/annotation/workspace/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/nlp/annotation/workspace/ner.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/nlp/annotation/workspace/ner.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/nlp/annotation/workspace/textClassify.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/nlp/annotation/workspace/textClassify.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/nlp/annotation/workspace/textSegmentation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/nlp/annotation/workspace/textSegmentation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/nlp/list/action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/nlp/list/action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/nlp/list/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/nlp/list/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/nlp/textClassify/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/nlp/textClassify/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/nlp/textClassify/sidebar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/nlp/textClassify/sidebar/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/nlp/textClassify/sidebar/labelList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/nlp/textClassify/sidebar/labelList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/nlp/textClassify/sidebar/multiLabelList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/nlp/textClassify/sidebar/multiLabelList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/nlp/textClassify/workspace.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/nlp/textClassify/workspace.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/nlp/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/nlp/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/components/action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/components/action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/components/auto-annotate-modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/components/auto-annotate-modal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/components/create-dataset.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/components/create-dataset.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/components/detail-drawer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/components/detail-drawer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/components/error-msg-popover.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/components/error-msg-popover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/core/consts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/core/consts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/core/dataStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/core/dataStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/core/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/core/editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/Header/filesAction.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/Header/filesAction.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/Header/filter-modal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/Header/filter-modal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/Header/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/Header/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/Header/statistics-modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/Header/statistics-modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/ItemBar/annotation-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/ItemBar/annotation-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/ItemBar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/ItemBar/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/MenuBar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/MenuBar/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/PointCloudView/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/PointCloudView/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/ToolBar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/ToolBar/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/layout/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/editor/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/pointCloud/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/pointCloud/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/style/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/style/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/style/list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/style/list.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/tableImport/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/tableImport/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/tableImport/previewer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/tableImport/previewer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/tableImport/result.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/tableImport/result.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/tableImport/uploader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/tableImport/uploader.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/util/biz.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/util/biz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/util/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/util/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/util/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/util/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/util/tableReader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/util/tableReader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/version/actions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/version/actions.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/version/convert.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/version/convert.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dataset/version/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dataset/version/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/development/components/CreateDialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/development/components/CreateDialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/development/components/NotebookDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/development/components/NotebookDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/development/notebook.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/development/notebook.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/development/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/development/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/imagePublic.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/imagePublic.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/labelGroup/dynamicField.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/labelGroup/dynamicField.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/labelGroup/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/labelGroup/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/labelGroup/labelGroupAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/labelGroup/labelGroupAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/labelGroup/labelGroupForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/labelGroup/labelGroupForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/model/components/addModelDialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/model/components/addModelDialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/model/components/createModelForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/model/components/createModelForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/model/components/modelUploader.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/model/components/modelUploader.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/model/components/packageForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/model/components/packageForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/model/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/model/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/model/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/model/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/model/version.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/model/version.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/modelOptimize/components/builtInForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/modelOptimize/components/builtInForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/modelOptimize/components/customizeForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/modelOptimize/components/customizeForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/modelOptimize/components/optimizeForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/modelOptimize/components/optimizeForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/modelOptimize/components/optimizeResult.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/modelOptimize/components/optimizeResult.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/modelOptimize/components/quickUploadPopover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/modelOptimize/components/quickUploadPopover.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/modelOptimize/components/recordDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/modelOptimize/components/recordDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/modelOptimize/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/modelOptimize/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/modelOptimize/record.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/modelOptimize/record.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/modelOptimize/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/modelOptimize/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/register.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/register.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/reinforceLearning/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/reinforceLearning/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/reinforceLearning/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/reinforceLearning/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/resetpassword.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/resetpassword.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/system/authCode/components/authCodeForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/authCode/components/authCodeForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/system/authCode/components/permissionForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/authCode/components/permissionForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/system/authCode/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/authCode/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/system/authCode/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/authCode/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/system/node/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/node/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/system/recycle/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/recycle/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/system/recycle/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/recycle/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/system/resources/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/resources/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/system/resources/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/resources/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/system/userGroup/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/userGroup/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/system/userGroup/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/system/userGroup/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/components/chart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/components/chart.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/components/chartCard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/components/chartCard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/components/config.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/components/config.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/components/detailDashboard.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/components/detailDashboard.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/components/general.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/components/general.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/components/parameter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/components/parameter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/components/runParameter.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/components/runParameter.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/components/saveModelModal.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/components/saveModelModal.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/components/singleTrialStat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/components/singleTrialStat.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/components/stat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/components/stat.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/components/trials.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/components/trials.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/components/trialsList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/components/trialsList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/retrain.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/retrain.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/select.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/select.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/stage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/stage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/train.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/train.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/detail/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/detail/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/formPage/components/tadlForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/formPage/components/tadlForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/formPage/components/tadlStageForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/formPage/components/tadlStageForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/formPage/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/formPage/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/formPage/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/formPage/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/formPage/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/formPage/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/list/components/listStatus.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/list/components/listStatus.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/list/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/list/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/list/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/list/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/strategy/components/CreatePageForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/strategy/components/CreatePageForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/strategy/components/ReleaseDialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/strategy/components/ReleaseDialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/strategy/components/StrategyDrawer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/strategy/components/StrategyDrawer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/strategy/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/strategy/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/strategy/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/strategy/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/tadl/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/tadl/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/terminal/components/connectionForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/terminal/components/connectionForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/terminal/components/perNodeForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/terminal/components/perNodeForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/terminal/components/preserveForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/terminal/components/preserveForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/terminal/overview.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/terminal/overview.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/terminal/remote.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/terminal/remote.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/terminal/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/terminal/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/trainingImage/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/trainingImage/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/trainingJob/add.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/trainingJob/add.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/trainingJob/atlasAdd.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/trainingJob/atlasAdd.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/trainingJob/components/jobDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/trainingJob/components/jobDetail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/trainingJob/components/jobDrawer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/trainingJob/components/jobDrawer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/trainingJob/components/logDialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/trainingJob/components/logDialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/trainingJob/components/pathSelectDialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/trainingJob/components/pathSelectDialog.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/trainingJob/detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/trainingJob/detail.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/trainingJob/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/trainingJob/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/trainingJob/jobList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/trainingJob/jobList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/trainingJob/jobParam.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/trainingJob/jobParam.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/trainingJob/trainingVisualList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/trainingJob/trainingVisualList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/trainingJob/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/trainingJob/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Layout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/customs/Category.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/customs/Category.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/customs/Customs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/customs/Customs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/customs/CustomsPanel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/customs/CustomsPanel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/customs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/customs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/embeddings/EmbeddingDraw.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/embeddings/EmbeddingDraw.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/embeddings/Embeddings.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/embeddings/Embeddings.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/embeddings/EmbeddingsPanel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/embeddings/EmbeddingsPanel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/embeddings/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/embeddings/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/exception/Exception.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/exception/Exception.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/exception/ExceptionPanel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/exception/ExceptionPanel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/exception/excepContainer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/exception/excepContainer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/exception/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/exception/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/features/Features.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/features/Features.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/features/FeaturesPanel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/features/FeaturesPanel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/features/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/features/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/graphs/C_Graphs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/graphs/C_Graphs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/graphs/FeatureMapBox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/graphs/FeatureMapBox.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/graphs/Graphs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/graphs/Graphs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/graphs/GraphsPanel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/graphs/GraphsPanel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/graphs/S_Graphs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/graphs/S_Graphs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/graphs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/graphs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/hiddenstate/HiddenState.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/hiddenstate/HiddenState.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/hiddenstate/HiddenStatePanel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/hiddenstate/HiddenStatePanel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/hiddenstate/HighlightItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/hiddenstate/HighlightItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/hiddenstate/StateVis.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/hiddenstate/StateVis.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/hiddenstate/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/hiddenstate/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/hyperparms/HyperPara.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/hyperparms/HyperPara.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/hyperparms/Hyperparms.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/hyperparms/Hyperparms.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/hyperparms/HyperparmsPanel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/hyperparms/HyperparmsPanel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/hyperparms/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/hyperparms/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/medias/Medias.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/medias/Medias.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/medias/MediasPanel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/medias/MediasPanel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/medias/audio/Audios.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/medias/audio/Audios.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/medias/audio/audioContainer/AudioContainer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/medias/audio/audioContainer/AudioContainer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/medias/audio/audioContainer/CustomAudio.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/medias/audio/audioContainer/CustomAudio.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/medias/audio/audioContainer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/medias/audio/audioContainer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/medias/audio/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/medias/audio/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/medias/image/Images.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/medias/image/Images.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/medias/image/imagecontainer/ImageContainer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/medias/image/imagecontainer/ImageContainer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/medias/image/imagecontainer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/medias/image/imagecontainer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/medias/image/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/medias/image/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/medias/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/medias/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/medias/text/Texts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/medias/text/Texts.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/medias/text/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/medias/text/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/medias/text/textContainer/TextContainer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/medias/text/textContainer/TextContainer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/medias/text/textContainer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/medias/text/textContainer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/rocs/ROCs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/rocs/ROCs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/rocs/ROCsPanel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/rocs/ROCsPanel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/rocs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/rocs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/scalars/Scalars.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/scalars/Scalars.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/scalars/ScalarsPanel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/scalars/ScalarsPanel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/scalars/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/scalars/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/scalars/scalarcontainer/ScalarContainer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/scalars/scalarcontainer/ScalarContainer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/scalars/scalarcontainer/ScalarCustom.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/scalars/scalarcontainer/ScalarCustom.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/scalars/scalarcontainer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/scalars/scalarcontainer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/scalars/scalarcontainer/scalarchart/Scalarchart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/scalars/scalarcontainer/scalarchart/Scalarchart.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/scalars/scalarcontainer/scalarchart/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/scalars/scalarcontainer/scalarchart/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/scalars/subscalar/SubScalars.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/scalars/subscalar/SubScalars.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/scalars/subscalar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/scalars/subscalar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/statistics/Statistics.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/statistics/Statistics.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/statistics/StatisticsPanel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/statistics/StatisticsPanel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/statistics/drawStatistic/HisOrtho.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/statistics/drawStatistic/HisOrtho.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/statistics/drawStatistic/HisOverlook.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/statistics/drawStatistic/HisOverlook.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/statistics/drawStatistic/HisThreeD.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/statistics/drawStatistic/HisThreeD.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/statistics/drawStatistic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/statistics/drawStatistic/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/statistics/drawStatistic/statisticContainer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/statistics/drawStatistic/statisticContainer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/statistics/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/statistics/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/statistics/substatistic/SubStatistics.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/statistics/substatistic/SubStatistics.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/statistics/substatistic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/statistics/substatistic/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/transformer/Transformer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/transformer/Transformer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/transformer/TransformerPanel.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/transformer/TransformerPanel.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/transformer/image/TransformerImage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/transformer/image/TransformerImage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/transformer/image/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/transformer/image/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/transformer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/transformer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/transformer/text/TextAttentionVis.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/transformer/text/TextAttentionVis.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/transformer/text/TransformerText.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/transformer/text/TransformerText.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/transformer/text/attentionInfo/AttentionInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/transformer/text/attentionInfo/AttentionInfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/transformer/text/attentionInfo/RadialBarChart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/transformer/text/attentionInfo/RadialBarChart.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/transformer/text/attentionInfo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/transformer/text/attentionInfo/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/transformer/text/attentionInfo/strategies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/transformer/text/attentionInfo/strategies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/visual/Visual/transformer/text/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/visual/Visual/transformer/text/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,21 +580,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/workspace/nongyedao/20251125nongyedao-cloud&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/workspace/SSD-GPU-POOL",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\Program Files\\JetBrains\\IntelliJ IDEA 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\SSD-GPU-POOL" />
@@ -69,7 +620,13 @@
       <workItem from="1763894576449" duration="18779000" />
       <workItem from="1764042031179" duration="48000" />
       <workItem from="1764042506430" duration="795000" />
-      <workItem from="1764750220766" duration="883000" />
+      <workItem from="1764750220766" duration="1951000" />
+      <workItem from="1772291620074" duration="1455000" />
+      <workItem from="1772296742359" duration="3906000" />
+      <workItem from="1776749334414" duration="634000" />
+      <workItem from="1777565641215" duration="941000" />
+      <workItem from="1778232493327" duration="5784000" />
+      <workItem from="1788018258533" duration="6991000" />
     </task>
     <task id="LOCAL-00001" summary="更新有训练视频的版本">
       <option name="closed" value="true" />
@@ -151,7 +708,23 @@
       <option name="project" value="LOCAL" />
       <updated>1764751955240</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="更新有训练视频的版本">
+      <option name="closed" value="true" />
+      <created>1764752211049</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1764752211049</updated>
+    </task>
+    <task id="LOCAL-00012" summary="更新有训练视频的版本">
+      <option name="closed" value="true" />
+      <created>1764752547368</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1764752547368</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

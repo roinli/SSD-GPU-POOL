@@ -1,4 +1,4 @@
-<!--  Copyright 2020 Tianshu AI Platform and Zhejiang University. All Rights Reserved.
+<!--  Copyright 2026 慧知 and Zhejiang University. All Rights Reserved.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.

@@ -1,12 +1,12 @@
 {
   "name": "htd-web",
   "version": "3.0.0",
-  "description": "之江慧通岛人工智能开源平台",
-  "author": "zhejianglab",
+  "description": "数算岛（SSD）开源 GPU 智算管理平台（前端）",
+  "author": "慧知",
   "keywords": [
     "web",
     "vue",
-    "zhejianglab",
+    "数算岛",
     "慧通岛",
     "人工智能"
   ],
@@ -38,7 +38,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@codeup.teambition.com:zhejianglab/htd-web.git"
+    "url": "https://github.com/roinli/SSD-GPU-POOL.git"
   },
   "dependencies": {
     "@antv/g2plot": "^2.3.17",
